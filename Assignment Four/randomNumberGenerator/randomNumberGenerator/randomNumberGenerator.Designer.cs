@@ -34,8 +34,6 @@
             this.exitProgramButton = new System.Windows.Forms.Button();
             this.clearForm = new System.Windows.Forms.Button();
             this.saveFileControl = new System.Windows.Forms.SaveFileDialog();
-            this.listboxOutput = new System.Windows.Forms.ListBox();
-            this.saveButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // inputMaximumLabel
@@ -56,7 +54,7 @@
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(91, 220);
+            this.calculateButton.Location = new System.Drawing.Point(15, 220);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(116, 37);
             this.calculateButton.TabIndex = 4;
@@ -66,9 +64,9 @@
             // 
             // exitProgramButton
             // 
-            this.exitProgramButton.Location = new System.Drawing.Point(213, 220);
+            this.exitProgramButton.Location = new System.Drawing.Point(173, 220);
             this.exitProgramButton.Name = "exitProgramButton";
-            this.exitProgramButton.Size = new System.Drawing.Size(75, 37);
+            this.exitProgramButton.Size = new System.Drawing.Size(116, 37);
             this.exitProgramButton.TabIndex = 5;
             this.exitProgramButton.Text = "Exit";
             this.exitProgramButton.UseVisualStyleBackColor = true;
@@ -84,31 +82,11 @@
             this.clearForm.UseVisualStyleBackColor = true;
             this.clearForm.Click += new System.EventHandler(this.clearForm_Click);
             // 
-            // listboxOutput
-            // 
-            this.listboxOutput.FormattingEnabled = true;
-            this.listboxOutput.Location = new System.Drawing.Point(8, 32);
-            this.listboxOutput.Name = "listboxOutput";
-            this.listboxOutput.Size = new System.Drawing.Size(281, 173);
-            this.listboxOutput.TabIndex = 6;
-            // 
-            // saveButton
-            // 
-            this.saveButton.Location = new System.Drawing.Point(10, 220);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(75, 37);
-            this.saveButton.TabIndex = 7;
-            this.saveButton.Text = "Save";
-            this.saveButton.UseVisualStyleBackColor = true;
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
-            // 
             // randomNumberGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(301, 262);
-            this.Controls.Add(this.saveButton);
-            this.Controls.Add(this.listboxOutput);
             this.Controls.Add(this.clearForm);
             this.Controls.Add(this.exitProgramButton);
             this.Controls.Add(this.calculateButton);
@@ -129,8 +107,6 @@
         private System.Windows.Forms.Button exitProgramButton;
         private System.Windows.Forms.Button clearForm;
         private System.Windows.Forms.SaveFileDialog saveFileControl;
-        private System.Windows.Forms.ListBox listboxOutput;
-        private System.Windows.Forms.Button saveButton;
     }
 }
 

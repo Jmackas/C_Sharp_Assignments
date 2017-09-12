@@ -25,8 +25,6 @@ namespace randomNumberGenerator
         {
             try
             {
-                // Clear any leftover listbox data before user select
-                listboxOutput.Items.Clear();
 
                 // Declaration of variables
                 int maxNum;
@@ -42,22 +40,42 @@ namespace randomNumberGenerator
                     inputMaximumLabel.Text = "";
                 }
 
+                // Random number object
                 // Declaration of random number
                 Random rand = new Random();
 
-                // Random number object
+                // Declaration of the StreamWriter variable
+                StreamWriter outputFile;
 
-
-
+                // Output file creation 
+                outputFile = File.CreateText("Numbers.Text");
 
                 // While 
-                
+                while (count <= maxNum)
+                {
 
-                
+                    outputFile.WriteLine(rand.Next(100));
+                    count++;
+                }
 
 
+                SaveFileDialog saveFileControl = new SaveFileDialog();
 
-            
+                saveFileControl.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                saveFileControl.FilterIndex = 2;
+                saveFileControl.RestoreDirectory = true;
+
+                if (saveFileControl.ShowDialog() == DialogResult.OK)
+                {
+                    MessageBox.Show("You clicked the Open button.");
+                }
+                else
+                {
+                    MessageBox.Show("You clicked the Cancel button.");
+                }
+
+
+                outputFile.Close();
 
 
 
@@ -86,33 +104,6 @@ namespace randomNumberGenerator
             inputMaximumLabel.Text = "";
         }
 
-        private void saveButton_Click(object sender, EventArgs e)
-        {
 
-            // Declaration of the StreamWriter variable
-            StreamWriter outputFile;
-            
-            // Output file creation 
-            outputFile = File.CreateText("Numbers.Text");
-
-            SaveFileDialog saveFileControl = new SaveFileDialog();
-
-            saveFileControl.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-            saveFileControl.RestoreDirectory = true;
-
-            if (saveFileControl.ShowDialog() == DialogResult.OK)
-            {
-                using (Stream s = File.Open(saveFileControl.FileName, FileMode.CreateNew))
-                using (StreamWriter sw = new StreamWriter(s))
-                {
-                    sw.Write(listboxOutput.Items);
-                }
-
-            }
-
-
-            outputFile.Close();
-   
-        }
     }
 }
