@@ -51,11 +51,7 @@ namespace randomNumberGenerator
                 outputFile = File.CreateText("Numbers.Text");
 
                 // While 
-                while (count <= maxNum)
-                {
-                    outputFile.WriteLine(rand.Next(100));
-                    count++;
-                }
+                
 
 
                 SaveFileDialog saveFileControl = new SaveFileDialog();
@@ -64,7 +60,19 @@ namespace randomNumberGenerator
                 saveFileControl.FilterIndex = 2;
                 saveFileControl.RestoreDirectory = true;
 
-                
+                if (saveFileControl.ShowDialog() == DialogResult.OK)
+                {
+                    using (Stream s = File.Open(saveFileControl.FileName, FileMode.CreateNew))
+                    using (StreamWriter sw = new StreamWriter(s))
+                    {
+                        while (count <= maxNum)
+                        {
+                            count++;
+                            sw.Write(rand.Next(100) + Environment.NewLine);
+                        }
+                        
+                    }
+                }
 
 
                 outputFile.Close();
