@@ -53,7 +53,6 @@ namespace randomNumberGenerator
                 // While 
                 while (count <= maxNum)
                 {
-
                     outputFile.WriteLine(rand.Next(100));
                     count++;
                 }
@@ -70,7 +69,7 @@ namespace randomNumberGenerator
                     using (Stream s = File.Open(saveFileControl.FileName, FileMode.CreateNew))
                     using (StreamWriter sw = new StreamWriter(s))
                     {
-                        sw.Write(rand.Next(100));
+                        sw.Write(outputFile);
                     }
                 }
 
