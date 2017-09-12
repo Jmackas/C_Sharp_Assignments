@@ -60,18 +60,11 @@ namespace randomNumberGenerator
 
                 SaveFileDialog saveFileControl = new SaveFileDialog();
 
-                saveFileControl.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                saveFileControl.Filter = "Text Files | *.txt";
                 saveFileControl.FilterIndex = 2;
                 saveFileControl.RestoreDirectory = true;
 
-                if (saveFileControl.ShowDialog() == DialogResult.OK)
-                {
-                    using (Stream s = File.Open(saveFileControl.FileName, FileMode.CreateNew))
-                    using (StreamWriter sw = new StreamWriter(s))
-                    {
-                        sw.Write(outputFile);
-                    }
-                }
+                
 
 
                 outputFile.Close();
