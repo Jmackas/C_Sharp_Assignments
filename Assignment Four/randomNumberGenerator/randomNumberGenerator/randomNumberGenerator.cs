@@ -67,11 +67,11 @@ namespace randomNumberGenerator
 
                 if (saveFileControl.ShowDialog() == DialogResult.OK)
                 {
-                    MessageBox.Show("You clicked the Open button.");
-                }
-                else
-                {
-                    MessageBox.Show("You clicked the Cancel button.");
+                    using (Stream s = File.Open(saveFileControl.FileName, FileMode.CreateNew))
+                    using (StreamWriter sw = new StreamWriter(s))
+                    {
+                        sw.Write(rand.Next(100));
+                    }
                 }
 
 
