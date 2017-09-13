@@ -25,7 +25,6 @@ namespace randomNumberGenerator
         {
             try
             {
-
                 // Declaration of variables
                 int maxNum;
                 int count = 1;
@@ -96,7 +95,7 @@ namespace randomNumberGenerator
         // Clear the input on button select
         private void clearForm_Click(object sender, EventArgs e)
         {
-
+            // Clear the input label on button select
             inputMaximumLabel.Text = "";
         }
     }
