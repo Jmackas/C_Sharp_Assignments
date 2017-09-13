@@ -20,6 +20,8 @@ namespace randomNumberGenerator
             InitializeComponent();
         }
 
+        // I am using Camel Case for the naming, but Visual Studio seems to have an issue with the lowercase first word and uppercase last word. What are the usual best practices?
+
         // Calculations
         private void calculateButton_Click(object sender, EventArgs e)
         {
