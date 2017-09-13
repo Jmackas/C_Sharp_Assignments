@@ -89,14 +89,14 @@ namespace randomNumberGenerator
         // Exit program on button select
         private void exitProgramButton_Click(object sender, EventArgs e)
         {
-
-
+            // Close the form on button select
             this.Close();
         }
 
         // Clear the input on button select
         private void clearForm_Click(object sender, EventArgs e)
         {
+
             inputMaximumLabel.Text = "";
         }
     }

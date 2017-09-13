@@ -92,6 +92,7 @@
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.maximumAmountLabel);
             this.Controls.Add(this.inputMaximumLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "randomNumberGenerator";
             this.Text = "Random Number Generator";
             this.ResumeLayout(false);
