@@ -38,19 +38,19 @@
             // 
             // inputMaximumLabel
             // 
-            this.inputMaximumLabel.Location = new System.Drawing.Point(109, 6);
+            this.inputMaximumLabel.Location = new System.Drawing.Point(9, 27);
             this.inputMaximumLabel.Name = "inputMaximumLabel";
-            this.inputMaximumLabel.Size = new System.Drawing.Size(100, 20);
+            this.inputMaximumLabel.Size = new System.Drawing.Size(134, 20);
             this.inputMaximumLabel.TabIndex = 0;
             // 
             // maximumAmountLabel
             // 
             this.maximumAmountLabel.AutoSize = true;
-            this.maximumAmountLabel.Location = new System.Drawing.Point(12, 9);
+            this.maximumAmountLabel.Location = new System.Drawing.Point(6, 6);
             this.maximumAmountLabel.Name = "maximumAmountLabel";
-            this.maximumAmountLabel.Size = new System.Drawing.Size(91, 13);
+            this.maximumAmountLabel.Size = new System.Drawing.Size(281, 13);
             this.maximumAmountLabel.TabIndex = 1;
-            this.maximumAmountLabel.Text = "Maximum Number";
+            this.maximumAmountLabel.Text = "Enter amount of randomly generated numbers to be output";
             // 
             // calculateButton
             // 
@@ -74,7 +74,7 @@
             // 
             // clearForm
             // 
-            this.clearForm.Location = new System.Drawing.Point(215, 4);
+            this.clearForm.Location = new System.Drawing.Point(9, 53);
             this.clearForm.Name = "clearForm";
             this.clearForm.Size = new System.Drawing.Size(75, 23);
             this.clearForm.TabIndex = 2;

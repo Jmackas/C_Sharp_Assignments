@@ -103,7 +103,5 @@ namespace randomNumberGenerator
         {
             inputMaximumLabel.Text = "";
         }
-
-
     }
 }
