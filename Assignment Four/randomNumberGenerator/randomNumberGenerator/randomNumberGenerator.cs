@@ -30,7 +30,7 @@ namespace randomNumberGenerator
                 int maxNum;
                 int count = 1;
 
-                // Input parsing fields
+                // Convert user input to text
                 maxNum = int.Parse(inputMaximumLabel.Text);
 
                 // Input validation, ensuring the user has entered a number greater than 0.
@@ -56,6 +56,7 @@ namespace randomNumberGenerator
 
                 SaveFileDialog saveFileControl = new SaveFileDialog();
 
+                // Forcing the user to output the file type '.txt'
                 saveFileControl.Filter = "Text Files | *.txt";
                 saveFileControl.FilterIndex = 2;
                 saveFileControl.RestoreDirectory = true;

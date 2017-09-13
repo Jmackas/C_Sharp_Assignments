@@ -48,9 +48,9 @@
             this.maximumAmountLabel.AutoSize = true;
             this.maximumAmountLabel.Location = new System.Drawing.Point(6, 6);
             this.maximumAmountLabel.Name = "maximumAmountLabel";
-            this.maximumAmountLabel.Size = new System.Drawing.Size(281, 13);
+            this.maximumAmountLabel.Size = new System.Drawing.Size(221, 13);
             this.maximumAmountLabel.TabIndex = 1;
-            this.maximumAmountLabel.Text = "Enter amount of randomly generated numbers to be output";
+            this.maximumAmountLabel.Text = "Enter amount of randomly generated numbers";
             // 
             // calculateButton
             // 
