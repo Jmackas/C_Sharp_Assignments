@@ -21,7 +21,7 @@ namespace Simple_Addition_Quiz
         {
             // Try catch block to 'catch' any errors
             try
-            {
+            { 
                 // Initialisation of the two random addition variables
                 int randomNumOne, randomNumTwo;
 
@@ -51,14 +51,6 @@ namespace Simple_Addition_Quiz
 
                 // Formula to find the result of the random number
                 correctResultNumber = randomNumOne + randomNumTwo;
-
-                if (inputNumberText == correctResultNumber) {
-                       MessageBox.Show(" The operation was cancelled ");
-                }
-
-                else {
-                    MessageBox.Show("hello there");
-                }
 
             }
 
