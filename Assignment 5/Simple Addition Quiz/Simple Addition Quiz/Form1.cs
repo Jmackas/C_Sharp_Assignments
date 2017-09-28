@@ -44,10 +44,9 @@ namespace Simple_Addition_Quiz
                 randomNumOneLabel.Text = randomNumOne.ToString();
 
                 // Output the random number to randomNumTwoLabel
-                randomNumOneLabel.Text = randomNumTwo.ToString();
+                randomNumTwoLabel.Text = randomNumTwo.ToString();
 
-
-
+                // 
 
             }
 
