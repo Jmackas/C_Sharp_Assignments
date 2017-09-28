@@ -28,8 +28,10 @@ namespace Simple_Addition_Quiz
                 // Initialisation of the input variable
                 int inputNumberText;
 
-                // Parsing of the variable
+                // Conversion of input string to integer
                 inputNumberText = int.Parse(inputNumberTextBox.Text);
+
+                randomNumOne = new random().next(1, 100)
 
             }
 
