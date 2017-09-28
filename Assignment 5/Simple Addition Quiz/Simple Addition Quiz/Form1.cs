@@ -19,9 +19,15 @@ namespace Simple_Addition_Quiz
 
         private void solutionGenerator_Click(object sender, EventArgs e)
         {
+            buttonSelectOne();
+            
+        }
+
+        private void buttonSelectOne()
+        {
             // Try catch block to 'catch' any errors
             try
-            { 
+            {
                 // Initialisation of the two random addition variables
                 int randomNumOne, randomNumTwo;
 
