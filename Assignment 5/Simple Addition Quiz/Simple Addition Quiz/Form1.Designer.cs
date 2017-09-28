@@ -42,7 +42,6 @@
             this.randomNumOneLabel.Name = "randomNumOneLabel";
             this.randomNumOneLabel.Size = new System.Drawing.Size(35, 23);
             this.randomNumOneLabel.TabIndex = 0;
-            this.randomNumOneLabel.Text = "111";
             this.randomNumOneLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // randomNumTwoLabel
@@ -51,7 +50,6 @@
             this.randomNumTwoLabel.Name = "randomNumTwoLabel";
             this.randomNumTwoLabel.Size = new System.Drawing.Size(35, 23);
             this.randomNumTwoLabel.TabIndex = 1;
-            this.randomNumTwoLabel.Text = "111";
             this.randomNumTwoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // additionSignLabel
@@ -75,7 +73,7 @@
             this.solutionGenerator.Name = "solutionGenerator";
             this.solutionGenerator.Size = new System.Drawing.Size(260, 23);
             this.solutionGenerator.TabIndex = 4;
-            this.solutionGenerator.Text = "Solution";
+            this.solutionGenerator.Text = "Check Answer";
             this.solutionGenerator.UseVisualStyleBackColor = true;
             this.solutionGenerator.Click += new System.EventHandler(this.solutionGenerator_Click);
             // 
