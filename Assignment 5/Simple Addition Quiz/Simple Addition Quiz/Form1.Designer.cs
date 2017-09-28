@@ -31,7 +31,7 @@
             this.randomNumOneLabel = new System.Windows.Forms.Label();
             this.randomNumTwoLabel = new System.Windows.Forms.Label();
             this.additionSignLabel = new System.Windows.Forms.Label();
-            this.inputNumberText = new System.Windows.Forms.TextBox();
+            this.inputNumberTextBox = new System.Windows.Forms.TextBox();
             this.solutionGenerator = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -57,12 +57,12 @@
             this.additionSignLabel.TabIndex = 2;
             this.additionSignLabel.Text = "+";
             // 
-            // inputNumberText
+            // inputNumberTextBox
             // 
-            this.inputNumberText.Location = new System.Drawing.Point(112, 10);
-            this.inputNumberText.Name = "inputNumberText";
-            this.inputNumberText.Size = new System.Drawing.Size(160, 20);
-            this.inputNumberText.TabIndex = 3;
+            this.inputNumberTextBox.Location = new System.Drawing.Point(112, 10);
+            this.inputNumberTextBox.Name = "inputNumberTextBox";
+            this.inputNumberTextBox.Size = new System.Drawing.Size(160, 20);
+            this.inputNumberTextBox.TabIndex = 3;
             // 
             // solutionGenerator
             // 
@@ -80,7 +80,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.solutionGenerator);
-            this.Controls.Add(this.inputNumberText);
+            this.Controls.Add(this.inputNumberTextBox);
             this.Controls.Add(this.additionSignLabel);
             this.Controls.Add(this.randomNumTwoLabel);
             this.Controls.Add(this.randomNumOneLabel);
@@ -96,7 +96,7 @@
         private System.Windows.Forms.Label randomNumOneLabel;
         private System.Windows.Forms.Label randomNumTwoLabel;
         private System.Windows.Forms.Label additionSignLabel;
-        private System.Windows.Forms.TextBox inputNumberText;
+        private System.Windows.Forms.TextBox inputNumberTextBox;
         private System.Windows.Forms.Button solutionGenerator;
     }
 }

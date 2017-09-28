@@ -29,7 +29,7 @@ namespace Simple_Addition_Quiz
                 int inputNumberText;
 
                 // Parsing of the variable
-                inputNumberText = int.Parse(inputNumberText.Text);
+                inputNumberText = int.Parse(inputNumberTextBox.Text);
 
             }
 
