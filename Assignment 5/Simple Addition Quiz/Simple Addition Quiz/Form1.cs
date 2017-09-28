@@ -31,7 +31,10 @@ namespace Simple_Addition_Quiz
                 // Conversion of input string to integer
                 inputNumberText = int.Parse(inputNumberTextBox.Text);
 
-                randomNumOne = new random().next(1, 100)
+                // Generate random numbers
+                Random rand = new Random();
+
+                randomNumOne = rand.Next(100 + 1);
 
             }
 

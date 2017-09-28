@@ -47,3 +47,10 @@ C:\Users\James\Documents\Github\C_Sharp_Assignments\Assignment Four\randomNumber
 C:\Users\James\Documents\Github\C_Sharp_Assignments\Assignment Four\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.csproj.CoreCompileInputs.cache
 C:\Users\James\Documents\Github\C_Sharp_Assignments\Assignment Four\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.exe
 C:\Users\James\Documents\Github\C_Sharp_Assignments\Assignment Four\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.pdb
+C:\Users\james\Documents\github\C_Sharp_Assignments\Assignment 4\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.csprojResolveAssemblyReference.cache
+C:\Users\james\Documents\github\C_Sharp_Assignments\Assignment 4\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.randomNumberGenerator.resources
+C:\Users\james\Documents\github\C_Sharp_Assignments\Assignment 4\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.Properties.Resources.resources
+C:\Users\james\Documents\github\C_Sharp_Assignments\Assignment 4\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.csproj.GenerateResource.Cache
+C:\Users\james\Documents\github\C_Sharp_Assignments\Assignment 4\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\github\C_Sharp_Assignments\Assignment 4\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.exe
+C:\Users\james\Documents\github\C_Sharp_Assignments\Assignment 4\randomNumberGenerator\randomNumberGenerator\obj\Debug\randomNumberGenerator.pdb
