@@ -28,6 +28,9 @@ namespace Simple_Addition_Quiz
                 // Initialisation of the input variable
                 int inputNumberText;
 
+                // Initialisation of the random number addition output
+                int correctResultNumber;
+
                 // Conversion of input string to integer
                 inputNumberText = int.Parse(inputNumberTextBox.Text);
 
@@ -46,7 +49,12 @@ namespace Simple_Addition_Quiz
                 // Output the random number to randomNumTwoLabel
                 randomNumTwoLabel.Text = randomNumTwo.ToString();
 
-                // 
+                // Formula to find the result of the random number
+                correctResultNumber = randomNumOne + randomNumTwo;
+
+                if (inputNumberText == correctResultNumber) {
+                       MessageBox.Show(" The operation was cancelled ");
+                }
 
             }
 
