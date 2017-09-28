@@ -70,8 +70,9 @@
             this.solutionGenerator.Name = "solutionGenerator";
             this.solutionGenerator.Size = new System.Drawing.Size(260, 23);
             this.solutionGenerator.TabIndex = 4;
-            this.solutionGenerator.Text = "button1";
+            this.solutionGenerator.Text = "Solution";
             this.solutionGenerator.UseVisualStyleBackColor = true;
+            this.solutionGenerator.Click += new System.EventHandler(this.solutionGenerator_Click);
             // 
             // simpleAdditionQuizForm
             // 

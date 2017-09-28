@@ -16,5 +16,20 @@ namespace Simple_Addition_Quiz
         {
             InitializeComponent();
         }
+
+        private void solutionGenerator_Click(object sender, EventArgs e)
+        {
+            // Try catch block to 'catch' any errors
+            try
+            {
+
+            }
+
+            catch
+            {
+                // Fallback to a broken solution 
+                MessageBox.Show("Please enter an integer value.");
+            }
+        }
     }
 }
