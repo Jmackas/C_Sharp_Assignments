@@ -41,3 +41,7 @@ namespace Simple_Addition_Quiz
         }
     }
 }
+
+
+
+// Random rand = new Random();
