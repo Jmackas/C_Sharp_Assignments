@@ -29,22 +29,59 @@
         private void InitializeComponent()
         {
             this.randomNumOneLabel = new System.Windows.Forms.Label();
+            this.randomNumTwoLabel = new System.Windows.Forms.Label();
+            this.additionSignLabel = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.solutionGenerator = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // randomNumOneLabel
             // 
-            this.randomNumOneLabel.AutoSize = true;
             this.randomNumOneLabel.Location = new System.Drawing.Point(12, 9);
             this.randomNumOneLabel.Name = "randomNumOneLabel";
-            this.randomNumOneLabel.Size = new System.Drawing.Size(35, 13);
+            this.randomNumOneLabel.Size = new System.Drawing.Size(35, 23);
             this.randomNumOneLabel.TabIndex = 0;
-            this.randomNumOneLabel.Text = "label1";
+            // 
+            // randomNumTwoLabel
+            // 
+            this.randomNumTwoLabel.Location = new System.Drawing.Point(71, 9);
+            this.randomNumTwoLabel.Name = "randomNumTwoLabel";
+            this.randomNumTwoLabel.Size = new System.Drawing.Size(35, 23);
+            this.randomNumTwoLabel.TabIndex = 1;
+            // 
+            // additionSignLabel
+            // 
+            this.additionSignLabel.Location = new System.Drawing.Point(53, 13);
+            this.additionSignLabel.Name = "additionSignLabel";
+            this.additionSignLabel.Size = new System.Drawing.Size(12, 15);
+            this.additionSignLabel.TabIndex = 2;
+            this.additionSignLabel.Text = "+";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(112, 10);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(160, 20);
+            this.textBox1.TabIndex = 3;
+            // 
+            // solutionGenerator
+            // 
+            this.solutionGenerator.Location = new System.Drawing.Point(12, 226);
+            this.solutionGenerator.Name = "solutionGenerator";
+            this.solutionGenerator.Size = new System.Drawing.Size(260, 23);
+            this.solutionGenerator.TabIndex = 4;
+            this.solutionGenerator.Text = "button1";
+            this.solutionGenerator.UseVisualStyleBackColor = true;
             // 
             // simpleAdditionQuizForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.solutionGenerator);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.additionSignLabel);
+            this.Controls.Add(this.randomNumTwoLabel);
             this.Controls.Add(this.randomNumOneLabel);
             this.Name = "simpleAdditionQuizForm";
             this.Text = "Simple Addition Quiz Form";
@@ -56,6 +93,10 @@
         #endregion
 
         private System.Windows.Forms.Label randomNumOneLabel;
+        private System.Windows.Forms.Label randomNumTwoLabel;
+        private System.Windows.Forms.Label additionSignLabel;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button solutionGenerator;
     }
 }
 
