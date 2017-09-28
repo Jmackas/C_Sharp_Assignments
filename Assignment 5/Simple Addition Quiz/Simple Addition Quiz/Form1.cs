@@ -56,6 +56,10 @@ namespace Simple_Addition_Quiz
                        MessageBox.Show(" The operation was cancelled ");
                 }
 
+                else {
+                    MessageBox.Show("hello there");
+                }
+
             }
 
             catch
