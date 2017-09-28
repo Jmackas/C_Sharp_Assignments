@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Simple_Addition_Quiz
 {
-    public partial class Form1 : Form
+    public partial class simpleAdditionQuizForm : Form
     {
-        public Form1()
+        public simpleAdditionQuizForm()
         {
             InitializeComponent();
         }

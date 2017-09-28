@@ -1,6 +1,6 @@
 ﻿namespace Simple_Addition_Quiz
 {
-    partial class Form1
+    partial class simpleAdditionQuizForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.randomNumOneLabel = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // randomNumOneLabel
+            // 
+            this.randomNumOneLabel.AutoSize = true;
+            this.randomNumOneLabel.Location = new System.Drawing.Point(12, 9);
+            this.randomNumOneLabel.Name = "randomNumOneLabel";
+            this.randomNumOneLabel.Size = new System.Drawing.Size(35, 13);
+            this.randomNumOneLabel.TabIndex = 0;
+            this.randomNumOneLabel.Text = "label1";
+            // 
+            // simpleAdditionQuizForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.randomNumOneLabel);
+            this.Name = "simpleAdditionQuizForm";
+            this.Text = "Simple Addition Quiz Form";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label randomNumOneLabel;
     }
 }
 
