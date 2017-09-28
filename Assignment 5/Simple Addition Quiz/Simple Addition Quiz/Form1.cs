@@ -22,9 +22,14 @@ namespace Simple_Addition_Quiz
             // Try catch block to 'catch' any errors
             try
             {
-                int inputNumOne, inputNumTwo;
+                // Initialisation of the two random addition variables
+                int randomNumOne, randomNumTwo;
 
+                // Initialisation of the input variable
+                int inputNumberText;
 
+                // Parsing of the variable
+                inputNumberText = int.Parse(inputNumberText.Text);
 
             }
 
