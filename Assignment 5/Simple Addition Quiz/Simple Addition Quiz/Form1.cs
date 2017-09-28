@@ -12,6 +12,9 @@ namespace Simple_Addition_Quiz
 {
     public partial class simpleAdditionQuizForm : Form
     {
+        // Initialisation of the random number addition output
+        private int correctResultNumber;
+
         public simpleAdditionQuizForm()
         {
             InitializeComponent();
@@ -27,14 +30,8 @@ namespace Simple_Addition_Quiz
 
         private void preloadData()
         {
-            // Try catch block to 'catch' any errors
-            try
-            {
                 // Initialisation of the two random addition variables
                 int randomNumOne, randomNumTwo;
-
-                // Initialisation of the random number addition output
-                int correctResultNumber;
 
                 // Generate random numbers
                 Random rand = new Random();
@@ -54,27 +51,34 @@ namespace Simple_Addition_Quiz
                 // Formula to find the result of the random number
                 correctResultNumber = randomNumOne + randomNumTwo;
 
-            }
-
-            catch
-            {
-                // Fallback to a broken solution 
-                MessageBox.Show("Please enter an integer value.");
-            }
         }
 
         private void buttonSelectTwo_Click()
         {
-            // Initialisation of the input variable
-            int inputNumberText;
-
-            // Conversion of input string to integer
-            int.TryParse(inputNumberTextBox.Text, out inputNumberText);
-
-            if (inputNumberText > 10)
+            try
             {
-                MessageBox.Show("hello");
+                // Initialisation of the input variable
+                int inputNumberText;
+
+                // Conversion of input string to integer
+                int.TryParse(inputNumberTextBox.Text, out inputNumberText);
+
+                if (inputNumberText == correctResultNumber)
+                {
+                    MessageBox.Show("Correct");
+                }
+
+                else
+                {
+                    MessageBox.Show("Incorrect, the answer is " + correctResultNumber);
+                }
             }
+
+            catch
+            {
+                MessageBox.Show("Please enter an integer value.");
+            }
+
         }
 
 
