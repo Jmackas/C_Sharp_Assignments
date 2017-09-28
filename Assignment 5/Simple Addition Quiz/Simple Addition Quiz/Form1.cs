@@ -22,6 +22,9 @@ namespace Simple_Addition_Quiz
             // Try catch block to 'catch' any errors
             try
             {
+                int inputNumOne, inputNumTwo;
+
+
 
             }
 
