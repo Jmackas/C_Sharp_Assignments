@@ -37,10 +37,18 @@ namespace Simple_Addition_Quiz
                 // Generate random number between 0-100 and assign to randNumOne variable
                 randomNumOne = rand.Next(100 + 1);
 
+                // Generate random number between 0-100 and assign to randNumOne variable
+                randomNumTwo = rand.Next(100 + 1);
 
-
-
+                // Output the random number to randomNumOneLabel
                 randomNumOneLabel.Text = randomNumOne.ToString();
+
+                // Output the random number to randomNumTwoLabel
+                randomNumOneLabel.Text = randomNumTwo.ToString();
+
+
+
+
             }
 
             catch
@@ -51,7 +59,3 @@ namespace Simple_Addition_Quiz
         }
     }
 }
-
-
-
-// Random rand = new Random();

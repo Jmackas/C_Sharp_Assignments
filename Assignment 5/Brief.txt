@@ -6,3 +6,10 @@ The form should have a text box for the user to enter the problem’s answer. Wh
 
 -	Check the user’s input and display a message indicating whether it is the correct answer.
 -	Generate two new random numbers and display them in a new problem on the form.
+
+
+
+
+
+Notes:
+- Need to have the numbers appear on the screen without having to click 'solution' button.
