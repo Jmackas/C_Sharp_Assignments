@@ -15,15 +15,17 @@ namespace Simple_Addition_Quiz
         public simpleAdditionQuizForm()
         {
             InitializeComponent();
+            // Loads the intial random number
+            preloadData();
         }
 
         private void solutionGenerator_Click(object sender, EventArgs e)
         {
-            buttonSelectOne();
-            
+            buttonSelectTwo_Click();
+            Application.Restart();
         }
 
-        private void buttonSelectOne()
+        private void preloadData()
         {
             // Try catch block to 'catch' any errors
             try
@@ -31,14 +33,8 @@ namespace Simple_Addition_Quiz
                 // Initialisation of the two random addition variables
                 int randomNumOne, randomNumTwo;
 
-                // Initialisation of the input variable
-                int inputNumberText;
-
                 // Initialisation of the random number addition output
                 int correctResultNumber;
-
-                // Conversion of input string to integer
-                inputNumberText = int.Parse(inputNumberTextBox.Text);
 
                 // Generate random numbers
                 Random rand = new Random();
@@ -66,5 +62,21 @@ namespace Simple_Addition_Quiz
                 MessageBox.Show("Please enter an integer value.");
             }
         }
+
+        private void buttonSelectTwo_Click()
+        {
+            // Initialisation of the input variable
+            int inputNumberText;
+
+            // Conversion of input string to integer
+            int.TryParse(inputNumberTextBox.Text, out inputNumberText);
+
+            if (inputNumberText > 10)
+            {
+                MessageBox.Show("hello");
+            }
+        }
+
+
     }
 }
