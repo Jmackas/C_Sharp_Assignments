@@ -22,7 +22,7 @@ namespace Simple_Addition_Quiz
             preloadData();
         }
 
-        private void solutionGeneratorButton_Click(object sender, EventArgs e)
+        private void solutionGenerator_Click(object sender, EventArgs e)
         {
             buttonSelectTwo_Click();
             Application.Restart();

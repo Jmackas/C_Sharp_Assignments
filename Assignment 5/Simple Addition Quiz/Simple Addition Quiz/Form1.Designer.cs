@@ -32,7 +32,7 @@
             this.randomNumTwoLabel = new System.Windows.Forms.Label();
             this.additionSignLabel = new System.Windows.Forms.Label();
             this.inputNumberTextBox = new System.Windows.Forms.TextBox();
-            this.solutionGeneratorButton = new System.Windows.Forms.Button();
+            this.solutionGenerator = new System.Windows.Forms.Button();
             this.equalSignLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -69,15 +69,15 @@
             this.inputNumberTextBox.Size = new System.Drawing.Size(142, 20);
             this.inputNumberTextBox.TabIndex = 3;
             // 
-            // solutionGeneratorButton
+            // solutionGenerator
             // 
-            this.solutionGeneratorButton.Location = new System.Drawing.Point(12, 226);
-            this.solutionGeneratorButton.Name = "solutionGeneratorButton";
-            this.solutionGeneratorButton.Size = new System.Drawing.Size(260, 23);
-            this.solutionGeneratorButton.TabIndex = 4;
-            this.solutionGeneratorButton.Text = "Check Answer";
-            this.solutionGeneratorButton.UseVisualStyleBackColor = true;
-//            this.solutionGeneratorButton.Click += new System.EventHandler(this.solutionGenerator_Click);
+            this.solutionGenerator.Location = new System.Drawing.Point(12, 226);
+            this.solutionGenerator.Name = "solutionGenerator";
+            this.solutionGenerator.Size = new System.Drawing.Size(260, 23);
+            this.solutionGenerator.TabIndex = 4;
+            this.solutionGenerator.Text = "Solution";
+            this.solutionGenerator.UseVisualStyleBackColor = true;
+            this.solutionGenerator.Click += new System.EventHandler(this.solutionGenerator_Click);
             // 
             // equalSignLabel
             // 
@@ -93,7 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.equalSignLabel);
-            this.Controls.Add(this.solutionGeneratorButton);
+            this.Controls.Add(this.solutionGenerator);
             this.Controls.Add(this.inputNumberTextBox);
             this.Controls.Add(this.additionSignLabel);
             this.Controls.Add(this.randomNumTwoLabel);
@@ -111,7 +111,7 @@
         private System.Windows.Forms.Label randomNumTwoLabel;
         private System.Windows.Forms.Label additionSignLabel;
         private System.Windows.Forms.TextBox inputNumberTextBox;
-        private System.Windows.Forms.Button solutionGeneratorButton;
+        private System.Windows.Forms.Button solutionGenerator;
         private System.Windows.Forms.Label equalSignLabel;
     }
 }
