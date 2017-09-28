@@ -33,6 +33,7 @@
             this.additionSignLabel = new System.Windows.Forms.Label();
             this.inputNumberTextBox = new System.Windows.Forms.TextBox();
             this.solutionGenerator = new System.Windows.Forms.Button();
+            this.equalSignLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // randomNumOneLabel
@@ -41,6 +42,8 @@
             this.randomNumOneLabel.Name = "randomNumOneLabel";
             this.randomNumOneLabel.Size = new System.Drawing.Size(35, 23);
             this.randomNumOneLabel.TabIndex = 0;
+            this.randomNumOneLabel.Text = "111";
+            this.randomNumOneLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // randomNumTwoLabel
             // 
@@ -48,6 +51,8 @@
             this.randomNumTwoLabel.Name = "randomNumTwoLabel";
             this.randomNumTwoLabel.Size = new System.Drawing.Size(35, 23);
             this.randomNumTwoLabel.TabIndex = 1;
+            this.randomNumTwoLabel.Text = "111";
+            this.randomNumTwoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // additionSignLabel
             // 
@@ -59,9 +64,9 @@
             // 
             // inputNumberTextBox
             // 
-            this.inputNumberTextBox.Location = new System.Drawing.Point(112, 10);
+            this.inputNumberTextBox.Location = new System.Drawing.Point(130, 10);
             this.inputNumberTextBox.Name = "inputNumberTextBox";
-            this.inputNumberTextBox.Size = new System.Drawing.Size(160, 20);
+            this.inputNumberTextBox.Size = new System.Drawing.Size(142, 20);
             this.inputNumberTextBox.TabIndex = 3;
             // 
             // solutionGenerator
@@ -74,11 +79,20 @@
             this.solutionGenerator.UseVisualStyleBackColor = true;
             this.solutionGenerator.Click += new System.EventHandler(this.solutionGenerator_Click);
             // 
+            // equalSignLabel
+            // 
+            this.equalSignLabel.Location = new System.Drawing.Point(112, 13);
+            this.equalSignLabel.Name = "equalSignLabel";
+            this.equalSignLabel.Size = new System.Drawing.Size(12, 15);
+            this.equalSignLabel.TabIndex = 5;
+            this.equalSignLabel.Text = "=";
+            // 
             // simpleAdditionQuizForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.equalSignLabel);
             this.Controls.Add(this.solutionGenerator);
             this.Controls.Add(this.inputNumberTextBox);
             this.Controls.Add(this.additionSignLabel);
@@ -98,6 +112,7 @@
         private System.Windows.Forms.Label additionSignLabel;
         private System.Windows.Forms.TextBox inputNumberTextBox;
         private System.Windows.Forms.Button solutionGenerator;
+        private System.Windows.Forms.Label equalSignLabel;
     }
 }
 
