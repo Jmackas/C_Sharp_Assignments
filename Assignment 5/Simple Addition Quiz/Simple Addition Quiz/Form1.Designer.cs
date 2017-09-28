@@ -69,7 +69,7 @@
             // 
             // solutionGenerator
             // 
-            this.solutionGenerator.Location = new System.Drawing.Point(12, 226);
+            this.solutionGenerator.Location = new System.Drawing.Point(12, 36);
             this.solutionGenerator.Name = "solutionGenerator";
             this.solutionGenerator.Size = new System.Drawing.Size(260, 23);
             this.solutionGenerator.TabIndex = 4;
@@ -89,13 +89,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 65);
             this.Controls.Add(this.equalSignLabel);
             this.Controls.Add(this.solutionGenerator);
             this.Controls.Add(this.inputNumberTextBox);
             this.Controls.Add(this.additionSignLabel);
             this.Controls.Add(this.randomNumTwoLabel);
             this.Controls.Add(this.randomNumOneLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "simpleAdditionQuizForm";
             this.Text = "Simple Addition Quiz Form";
             this.ResumeLayout(false);
