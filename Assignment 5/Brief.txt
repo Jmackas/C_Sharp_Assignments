@@ -14,3 +14,4 @@ The form should have a text box for the user to enter the problem’s answer. Wh
 Notes:
 - Need to have the numbers appear on the screen without having to click 'solution' button.
 - Remember try catch blocks.
+- Need an '=' sign.
