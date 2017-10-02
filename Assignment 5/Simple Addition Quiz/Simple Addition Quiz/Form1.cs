@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// Input validation isn't essential for this, as the program will remind the user an error is present. 
+// Validating the user input to ensure they enter a correct data type is not essential, as the answer will output as incorrect if the input if incorrect. Example; if the user enters '002ll1', the program will simply say it is not the correct answer, which is true.
 
 namespace Simple_Addition_Quiz
 {
@@ -21,13 +21,13 @@ namespace Simple_Addition_Quiz
         {
             InitializeComponent();
             
-            // Loads the intial random numbers generated
+            // Loads the intial random numbers generated via the preloadData method
             preloadData();
         }
 
         private void solutionGenerator_Click(object sender, EventArgs e)
         {
-            // Start the algorithm to check the user's answer
+            // Invoke the button select method to check the user's answer
             buttonSelectTwo_Click();
 
             // Restart form to reset the values
@@ -92,6 +92,16 @@ namespace Simple_Addition_Quiz
 
         }
 
+        private void closeFormButton_Click(object sender, EventArgs e)
+        {
+            // Close the application on button select
+            this.Close();
+        }
 
+        private void newQuestionButton_Click(object sender, EventArgs e)
+        {
+            // Refresh the application on button select
+            Application.Restart();
+        }
     }
 }

@@ -34,6 +34,8 @@
             this.inputNumberTextBox = new System.Windows.Forms.TextBox();
             this.solutionGenerator = new System.Windows.Forms.Button();
             this.equalSignLabel = new System.Windows.Forms.Label();
+            this.newQuestionButton = new System.Windows.Forms.Button();
+            this.closeFormButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // randomNumOneLabel
@@ -85,11 +87,33 @@
             this.equalSignLabel.TabIndex = 5;
             this.equalSignLabel.Text = "=";
             // 
+            // newQuestionButton
+            // 
+            this.newQuestionButton.Location = new System.Drawing.Point(12, 65);
+            this.newQuestionButton.Name = "newQuestionButton";
+            this.newQuestionButton.Size = new System.Drawing.Size(129, 23);
+            this.newQuestionButton.TabIndex = 6;
+            this.newQuestionButton.Text = "New Question";
+            this.newQuestionButton.UseVisualStyleBackColor = true;
+            this.newQuestionButton.Click += new System.EventHandler(this.newQuestionButton_Click);
+            // 
+            // closeFormButton
+            // 
+            this.closeFormButton.Location = new System.Drawing.Point(147, 65);
+            this.closeFormButton.Name = "closeFormButton";
+            this.closeFormButton.Size = new System.Drawing.Size(125, 23);
+            this.closeFormButton.TabIndex = 7;
+            this.closeFormButton.Text = "Close";
+            this.closeFormButton.UseVisualStyleBackColor = true;
+            this.closeFormButton.Click += new System.EventHandler(this.closeFormButton_Click);
+            // 
             // simpleAdditionQuizForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 65);
+            this.ClientSize = new System.Drawing.Size(284, 97);
+            this.Controls.Add(this.closeFormButton);
+            this.Controls.Add(this.newQuestionButton);
             this.Controls.Add(this.equalSignLabel);
             this.Controls.Add(this.solutionGenerator);
             this.Controls.Add(this.inputNumberTextBox);
@@ -112,6 +136,8 @@
         private System.Windows.Forms.TextBox inputNumberTextBox;
         private System.Windows.Forms.Button solutionGenerator;
         private System.Windows.Forms.Label equalSignLabel;
+        private System.Windows.Forms.Button newQuestionButton;
+        private System.Windows.Forms.Button closeFormButton;
     }
 }
 
