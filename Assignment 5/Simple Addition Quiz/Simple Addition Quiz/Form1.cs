@@ -18,12 +18,13 @@ namespace Simple_Addition_Quiz
         public simpleAdditionQuizForm()
         {
             InitializeComponent();
-            // Loads the intial random number
+            // Loads the intial random numbers
             preloadData();
         }
 
         private void solutionGenerator_Click(object sender, EventArgs e)
         {
+            // Select 
             buttonSelectTwo_Click();
             Application.Restart();
         }
