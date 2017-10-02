@@ -12,5 +12,3 @@ The form should have a text box for the user to enter the problem’s answer. Wh
 
 
 Notes:
-- Remember try catch blocks.
-- Need an '=' sign.
