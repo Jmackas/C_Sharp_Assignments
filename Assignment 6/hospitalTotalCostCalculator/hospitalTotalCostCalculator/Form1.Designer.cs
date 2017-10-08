@@ -42,7 +42,7 @@
             this.finalCostLabel = new System.Windows.Forms.Label();
             this.finalCostOutputLabel = new System.Windows.Forms.Label();
             this.clearValuesButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.calculateTotalCostButton = new System.Windows.Forms.Button();
             this.exitFormButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -108,9 +108,9 @@
             this.labFeesLabel.AutoSize = true;
             this.labFeesLabel.Location = new System.Drawing.Point(12, 186);
             this.labFeesLabel.Name = "labFeesLabel";
-            this.labFeesLabel.Size = new System.Drawing.Size(129, 13);
+            this.labFeesLabel.Size = new System.Drawing.Size(121, 13);
             this.labFeesLabel.TabIndex = 7;
-            this.labFeesLabel.Text = "Total Amount of Lab Fees";
+            this.labFeesLabel.Text = "Total amount of lab fees";
             // 
             // labFeesText
             // 
@@ -124,9 +124,9 @@
             this.rehabilitationFeesLabel.AutoSize = true;
             this.rehabilitationFeesLabel.Location = new System.Drawing.Point(12, 229);
             this.rehabilitationFeesLabel.Name = "rehabilitationFeesLabel";
-            this.rehabilitationFeesLabel.Size = new System.Drawing.Size(175, 13);
+            this.rehabilitationFeesLabel.Size = new System.Drawing.Size(166, 13);
             this.rehabilitationFeesLabel.TabIndex = 9;
-            this.rehabilitationFeesLabel.Text = "Total Amount of Rehabilitation Fees";
+            this.rehabilitationFeesLabel.Text = "Total amount of rehabilitation fees";
             // 
             // rehabilitationFeesText
             // 
@@ -154,25 +154,26 @@
             // 
             // clearValuesButton
             // 
-            this.clearValuesButton.Location = new System.Drawing.Point(12, 344);
+            this.clearValuesButton.Location = new System.Drawing.Point(12, 398);
             this.clearValuesButton.Name = "clearValuesButton";
             this.clearValuesButton.Size = new System.Drawing.Size(100, 23);
             this.clearValuesButton.TabIndex = 13;
             this.clearValuesButton.Text = "Clear";
             this.clearValuesButton.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // calculateTotalCostButton
             // 
-            this.button1.Location = new System.Drawing.Point(211, 295);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
+            this.calculateTotalCostButton.Location = new System.Drawing.Point(211, 300);
+            this.calculateTotalCostButton.Name = "calculateTotalCostButton";
+            this.calculateTotalCostButton.Size = new System.Drawing.Size(100, 23);
+            this.calculateTotalCostButton.TabIndex = 14;
+            this.calculateTotalCostButton.Text = "Calculate";
+            this.calculateTotalCostButton.UseVisualStyleBackColor = true;
+            this.calculateTotalCostButton.Click += new System.EventHandler(this.calculateTotalCostButton_Click);
             // 
             // exitFormButton
             // 
-            this.exitFormButton.Location = new System.Drawing.Point(211, 344);
+            this.exitFormButton.Location = new System.Drawing.Point(212, 398);
             this.exitFormButton.Name = "exitFormButton";
             this.exitFormButton.Size = new System.Drawing.Size(100, 23);
             this.exitFormButton.TabIndex = 15;
@@ -184,9 +185,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 379);
+            this.ClientSize = new System.Drawing.Size(324, 433);
             this.Controls.Add(this.exitFormButton);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.calculateTotalCostButton);
             this.Controls.Add(this.clearValuesButton);
             this.Controls.Add(this.finalCostOutputLabel);
             this.Controls.Add(this.finalCostLabel);
@@ -224,7 +225,7 @@
         private System.Windows.Forms.Label finalCostLabel;
         private System.Windows.Forms.Label finalCostOutputLabel;
         private System.Windows.Forms.Button clearValuesButton;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button calculateTotalCostButton;
         private System.Windows.Forms.Button exitFormButton;
     }
 }

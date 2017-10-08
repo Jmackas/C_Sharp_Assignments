@@ -1,3 +1,9 @@
+/* 
+    Notes:
+        Remember to name the methods the same as the prescribed ones below.
+*/
+
+
 Hospital Charges
 
 Create an application that calculates the total cost of a hospital stay. The daily base charge is $350. The hospital also charges for medication, surgical fees, lab fees, and physical rehab. The application should accept the following input:

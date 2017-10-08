@@ -17,9 +17,27 @@ namespace hospitalTotalCostCalculator
             InitializeComponent();
         }
 
+        /* On 'calculate' button select method */
+        private void calculateTotalCostButton_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+        /* Method for calculating the base charge for staying at the hospital */
+        private void CalcStayCharge()
+        {
+            
+        }
+
+        /* Method for calculating the medication, surgical, lab, and rehabilitation fees */
+        private void CalcMiscCharges()
+        {
+
+        }
+
         private void exitFormButton_Click(object sender, EventArgs e)
         {
-            // Close the application on button select
+            /* Close the application on button select */
             this.Close();
         }
     }
