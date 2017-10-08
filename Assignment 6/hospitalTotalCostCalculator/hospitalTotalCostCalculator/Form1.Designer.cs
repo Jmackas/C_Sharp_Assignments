@@ -39,6 +39,8 @@
             this.labFeesText = new System.Windows.Forms.TextBox();
             this.rehabilitationFeesLabel = new System.Windows.Forms.Label();
             this.rehabilitationFeesText = new System.Windows.Forms.TextBox();
+            this.finalCostLabel = new System.Windows.Forms.Label();
+            this.finalCostOutputLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // overviewLabel
@@ -130,11 +132,30 @@
             this.rehabilitationFeesText.Size = new System.Drawing.Size(100, 20);
             this.rehabilitationFeesText.TabIndex = 10;
             // 
+            // finalCostLabel
+            // 
+            this.finalCostLabel.AutoSize = true;
+            this.finalCostLabel.Location = new System.Drawing.Point(14, 268);
+            this.finalCostLabel.Name = "finalCostLabel";
+            this.finalCostLabel.Size = new System.Drawing.Size(145, 13);
+            this.finalCostLabel.TabIndex = 11;
+            this.finalCostLabel.Text = "Total cost of the hospital stay";
+            // 
+            // finalCostOutputLabel
+            // 
+            this.finalCostOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.finalCostOutputLabel.Location = new System.Drawing.Point(211, 268);
+            this.finalCostOutputLabel.Name = "finalCostOutputLabel";
+            this.finalCostOutputLabel.Size = new System.Drawing.Size(100, 13);
+            this.finalCostOutputLabel.TabIndex = 12;
+            // 
             // hospitalTotalCostCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(379, 358);
+            this.Controls.Add(this.finalCostOutputLabel);
+            this.Controls.Add(this.finalCostLabel);
             this.Controls.Add(this.rehabilitationFeesText);
             this.Controls.Add(this.rehabilitationFeesLabel);
             this.Controls.Add(this.labFeesText);
@@ -166,6 +187,8 @@
         private System.Windows.Forms.TextBox labFeesText;
         private System.Windows.Forms.Label rehabilitationFeesLabel;
         private System.Windows.Forms.TextBox rehabilitationFeesText;
+        private System.Windows.Forms.Label finalCostLabel;
+        private System.Windows.Forms.Label finalCostOutputLabel;
     }
 }
 
