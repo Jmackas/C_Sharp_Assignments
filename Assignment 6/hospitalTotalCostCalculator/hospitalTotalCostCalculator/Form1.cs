@@ -20,13 +20,31 @@ namespace hospitalTotalCostCalculator
         /* On 'calculate' button select method */
         private void calculateTotalCostButton_Click(object sender, EventArgs e)
         {
+            /* Invokes the 'CalcStayCharge' method */
+            CalcStayCharge();
 
+            /* Invokes the 'CalcMiscCharges' method */
+            CalcMiscCharges();
+
+            /* Invokes the 'CalcTotalCharges' method */
+            CalcTotalCharges();
         }
         
         /* Method for calculating the base charge for staying at the hospital */
         private void CalcStayCharge()
         {
-            
+            /* Variable declaration for user input days spent in the hospital */
+            decimal amountOfDays;
+            /* Constant declaration for static price of day at hospital */
+            const decimal oneDayCost = 350;
+            /* Output cost for living at the hospital */
+            decimal totalHospitalCost;
+
+            /* Parsing user input */
+            amountOfDays = decimal.Parse(amountOfDaysText.Text);
+
+            /* Algorithm to determine the final cost */
+            totalHospitalCost = amountOfDays * oneDayCost;
         }
 
         /* Method for calculating the medication, surgical, lab, and rehabilitation fees */
