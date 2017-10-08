@@ -35,6 +35,13 @@ namespace hospitalTotalCostCalculator
 
         }
 
+        /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
+        private void CalcTotalCharges()
+        {
+
+        }
+
+
         private void exitFormButton_Click(object sender, EventArgs e)
         {
             /* Close the application on button select */
