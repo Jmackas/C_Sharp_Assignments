@@ -41,6 +41,9 @@
             this.rehabilitationFeesText = new System.Windows.Forms.TextBox();
             this.finalCostLabel = new System.Windows.Forms.Label();
             this.finalCostOutputLabel = new System.Windows.Forms.Label();
+            this.clearValuesButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.exitFormButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // overviewLabel
@@ -149,11 +152,41 @@
             this.finalCostOutputLabel.Size = new System.Drawing.Size(100, 13);
             this.finalCostOutputLabel.TabIndex = 12;
             // 
+            // clearValuesButton
+            // 
+            this.clearValuesButton.Location = new System.Drawing.Point(12, 344);
+            this.clearValuesButton.Name = "clearValuesButton";
+            this.clearValuesButton.Size = new System.Drawing.Size(100, 23);
+            this.clearValuesButton.TabIndex = 13;
+            this.clearValuesButton.Text = "Clear";
+            this.clearValuesButton.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(211, 295);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Calculate";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // exitFormButton
+            // 
+            this.exitFormButton.Location = new System.Drawing.Point(211, 344);
+            this.exitFormButton.Name = "exitFormButton";
+            this.exitFormButton.Size = new System.Drawing.Size(100, 23);
+            this.exitFormButton.TabIndex = 15;
+            this.exitFormButton.Text = "Exit";
+            this.exitFormButton.UseVisualStyleBackColor = true;
+            // 
             // hospitalTotalCostCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 358);
+            this.ClientSize = new System.Drawing.Size(324, 379);
+            this.Controls.Add(this.exitFormButton);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.clearValuesButton);
             this.Controls.Add(this.finalCostOutputLabel);
             this.Controls.Add(this.finalCostLabel);
             this.Controls.Add(this.rehabilitationFeesText);
@@ -189,6 +222,9 @@
         private System.Windows.Forms.TextBox rehabilitationFeesText;
         private System.Windows.Forms.Label finalCostLabel;
         private System.Windows.Forms.Label finalCostOutputLabel;
+        private System.Windows.Forms.Button clearValuesButton;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button exitFormButton;
     }
 }
 
