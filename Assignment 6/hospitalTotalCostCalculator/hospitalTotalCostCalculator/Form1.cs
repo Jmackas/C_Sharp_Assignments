@@ -16,5 +16,11 @@ namespace hospitalTotalCostCalculator
         {
             InitializeComponent();
         }
+
+        private void exitFormButton_Click(object sender, EventArgs e)
+        {
+            // Close the application on button select
+            this.Close();
+        }
     }
 }
