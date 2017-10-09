@@ -45,7 +45,7 @@ namespace hospitalTotalCostCalculator
                 /* Parsing user input */
                 amountOfDays = decimal.Parse(amountOfDaysText.Text);
 
-                /* Algorithm to determine the final cost */
+                /* Algorithm to determine the final cost (for this method) */
                 totalHospitalCost = amountOfDays * oneDayCost;
             }
 
@@ -54,14 +54,25 @@ namespace hospitalTotalCostCalculator
             {
                 MessageBox.Show("Please enter a positive number.");
             }
-
-
         }
 
         /* Method for calculating the medication, surgical, lab, and rehabilitation fees */
         private void CalcMiscCharges()
         {
+            /* Variable declaration for medication, surgical, lab, and rehabilitation fee input */
+            decimal medicationCharges, surgicalCharges, labFees, rehabilitationFees;
 
+            /* Variable declaration for output of added costs */
+            decimal totalMiscCharges;
+
+            /* Parsing user input */
+            medicationCharges = decimal.Parse(medicationChargesText.Text);
+            surgicalCharges = decimal.Parse(surgicalChargesText.Text);
+            labFees = decimal.Parse(labFeesText.Text);
+            rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
+
+            /* Algorithm to determine the final cost (for this method) */
+            totalMiscCharges = medicationCharges + surgicalCharges + labFees + rehabilitationFees;
         }
 
         /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
