@@ -13,11 +13,11 @@ namespace hospitalTotalCostCalculator
     public partial class hospitalTotalCostCalculator : Form
     {
         /* Public variable declarations */
-            /* Variable declaration for output of added costs */
-            private decimal totalMiscCharges;
+        /* Variable declaration for output of added costs */
+        private decimal totalMiscCharges;
 
-            /* Output cost for living at the hospital */
-            private decimal totalHospitalStayCost;
+        /* Output cost for living at the hospital */
+        private decimal totalHospitalStayCost;
 
         public hospitalTotalCostCalculator()
         {
@@ -27,6 +27,9 @@ namespace hospitalTotalCostCalculator
         /* On 'calculate' button select method */
         private void calculateTotalCostButton_Click_1(object sender, EventArgs e)
         {
+            /* Invokes the 'DataValidation' method */
+            DataValidation();
+
             /* Invokes the 'CalcStayCharge' method */
             CalcStayCharge();
 
@@ -37,6 +40,28 @@ namespace hospitalTotalCostCalculator
             CalcTotalCharges();
         }
 
+        private void DataValidation()
+        {
+            /* The purpose of this method is strictly to test the input data */
+
+            /* Declaration of variables */
+            decimal amountOfDays, medicationCharges, surgicalCharges, labFees, rehabilitationFees;
+
+            /* Parsing all variables */
+            amountOfDays = decimal.Parse(amountOfDaysText.Text);
+            medicationCharges = decimal.Parse(medicationChargesText.Text);
+            surgicalCharges = decimal.Parse(surgicalChargesText.Text);
+            labFees = decimal.Parse(labFeesText.Text);
+            rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
+
+            /* If statement to test that all variables are above 0 */
+            if (medicationCharges <= 0 || surgicalCharges <= 0 || labFees <= 0 || rehabilitationFees <= 0)
+            {
+                MessageBox.Show("Please enter a number above 0");
+            }
+        }
+
+
         /* Method for calculating the base charge for staying at the hospital */
         private void CalcStayCharge()
         {
@@ -44,6 +69,7 @@ namespace hospitalTotalCostCalculator
             {
                 /* Variable declaration for user input days spent in the hospital */
                 decimal amountOfDays;
+
                 /* Constant declaration for static price of day at hospital */
                 const decimal ONEDAYCOST = 350;
 
@@ -58,7 +84,7 @@ namespace hospitalTotalCostCalculator
             /* Try catch block to catch any exceptions encountered from the user input */
             catch
             {
-                MessageBox.Show("Please enter a positive number.");
+                MessageBox.Show("Please enter a number");
             }
         }
 
@@ -89,8 +115,6 @@ namespace hospitalTotalCostCalculator
         /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
         private void CalcTotalCharges()
         {
-
-
                 /* Declaration of the final hospital cost */
                 decimal totalHospitalCost;
 
@@ -99,18 +123,11 @@ namespace hospitalTotalCostCalculator
 
                 /* Output to user */
                 finalCostOutputLabel.Text = totalHospitalCost.ToString();
-
-            
-
-           
-            
         }
 
         private void exitFormButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-        
     }
 }

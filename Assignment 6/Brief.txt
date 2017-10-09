@@ -10,6 +10,8 @@
 
         Does the application need to output all the values of the methods to the user?
             Yes it does...
+
+        Add an output for all methods to the user.
 */
 
 
