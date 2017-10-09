@@ -55,6 +55,7 @@ namespace hospitalTotalCostCalculator
                 decimal.TryParse(surgicalChargesText.Text, out surgicalCharges);
                 decimal.TryParse(labFeesText.Text, out labFees);
                 decimal.TryParse(rehabilitationFeesText.Text, out rehabilitationFees);
+                
                 /* If statement that checks if the user has entered a number less than 0 for any of the inputs. If they have, then restart the program */
                 if (amountOfDays < 0 && medicationCharges < 0 && surgicalCharges < 0 && labFees < 0 && rehabilitationFees < 0) {
                     MessageBox.Show("Please don't enter a negative number");

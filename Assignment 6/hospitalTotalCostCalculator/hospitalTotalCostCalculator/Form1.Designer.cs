@@ -157,7 +157,7 @@
             this.clearValuesButton.Location = new System.Drawing.Point(12, 398);
             this.clearValuesButton.Name = "clearValuesButton";
             this.clearValuesButton.Size = new System.Drawing.Size(100, 23);
-            this.clearValuesButton.TabIndex = 13;
+            this.clearValuesButton.TabIndex = 14;
             this.clearValuesButton.Text = "Clear";
             this.clearValuesButton.UseVisualStyleBackColor = true;
             this.clearValuesButton.Click += new System.EventHandler(this.clearValuesButton_Click);
@@ -167,7 +167,7 @@
             this.calculateTotalCostButton.Location = new System.Drawing.Point(212, 316);
             this.calculateTotalCostButton.Name = "calculateTotalCostButton";
             this.calculateTotalCostButton.Size = new System.Drawing.Size(100, 23);
-            this.calculateTotalCostButton.TabIndex = 14;
+            this.calculateTotalCostButton.TabIndex = 13;
             this.calculateTotalCostButton.Text = "Calculate";
             this.calculateTotalCostButton.UseVisualStyleBackColor = true;
             this.calculateTotalCostButton.Click += new System.EventHandler(this.calculateTotalCostButton_Click_1);
