@@ -100,17 +100,23 @@ namespace hospitalTotalCostCalculator
             /* Output to user */
             finalCostOutputLabel.Text = totalHospitalCost.ToString();
 
-
-
-
-
         }
 
         private void exitFormButton_Click(object sender, EventArgs e)
         {
+            /* Close the program on button select */
             this.Close();
         }
 
-
+        private void clearValuesButton_Click(object sender, EventArgs e)
+        {
+            /* Clear all the input/output labels */
+            amountOfDaysText.Text = "";
+            medicationChargesText.Text = "";
+            surgicalChargesText.Text = "";
+            labFeesText.Text = "";
+            rehabilitationFeesText.Text = "";
+            finalCostOutputLabel.Text = "";
+        }
     }
 }

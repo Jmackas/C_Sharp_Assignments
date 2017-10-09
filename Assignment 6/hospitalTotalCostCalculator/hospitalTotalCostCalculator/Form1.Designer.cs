@@ -160,6 +160,7 @@
             this.clearValuesButton.TabIndex = 13;
             this.clearValuesButton.Text = "Clear";
             this.clearValuesButton.UseVisualStyleBackColor = true;
+            this.clearValuesButton.Click += new System.EventHandler(this.clearValuesButton_Click);
             // 
             // calculateTotalCostButton
             // 
