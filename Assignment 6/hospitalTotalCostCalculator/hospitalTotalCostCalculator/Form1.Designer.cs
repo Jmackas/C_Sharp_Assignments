@@ -164,7 +164,7 @@
             // 
             // calculateTotalCostButton
             // 
-            this.calculateTotalCostButton.Location = new System.Drawing.Point(212, 316);
+            this.calculateTotalCostButton.Location = new System.Drawing.Point(212, 301);
             this.calculateTotalCostButton.Name = "calculateTotalCostButton";
             this.calculateTotalCostButton.Size = new System.Drawing.Size(100, 23);
             this.calculateTotalCostButton.TabIndex = 13;
