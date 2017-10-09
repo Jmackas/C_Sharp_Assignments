@@ -1,7 +1,5 @@
 /* 
     Notes:
-        Remember to name the methods the same as the prescribed ones below.
-
         Don't forget try catch block for each method.
 
         Does the application need to output all the values of the methods to the user?

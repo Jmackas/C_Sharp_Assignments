@@ -19,10 +19,13 @@ namespace hospitalTotalCostCalculator
         const decimal ONEDAYCOST = 350;
 
         /* Variable declaration for output of added costs */
-        private decimal totalMiscCharges;
+        decimal totalMiscCharges;
 
         /* Variable declaration for output cost for living at the hospital */
-        private decimal totalHospitalStayCost;
+        decimal totalHospitalStayCost;
+
+ /* Variable declaration for the overall cost */
+        decimal totalHospitalCost;
 
         public hospitalTotalCostCalculator()
         {
@@ -55,7 +58,7 @@ namespace hospitalTotalCostCalculator
                 decimal.TryParse(surgicalChargesText.Text, out surgicalCharges);
                 decimal.TryParse(labFeesText.Text, out labFees);
                 decimal.TryParse(rehabilitationFeesText.Text, out rehabilitationFees);
-                
+
                 /* If statement that checks if the user has entered a number less than 0 for any of the inputs. If they have, then restart the program */
                 if (amountOfDays < 0 && medicationCharges < 0 && surgicalCharges < 0 && labFees < 0 && rehabilitationFees < 0) {
                     MessageBox.Show("Please don't enter a negative number");
@@ -71,63 +74,26 @@ namespace hospitalTotalCostCalculator
         /* Method for calculating the base charge for staying at the hospital */
         private void CalcStayCharge()
         {
-            try
-            {
-                /* Data validation ensuring the number entered is positive */
-                if (amountOfDays < 0)
-                {
-                    MessageBox.Show("Please don't enter a negative number");
-                    Application.Restart();
-                }
 
                 /* Algorithm to determine the final cost (for this method) */
                 totalHospitalStayCost = amountOfDays * ONEDAYCOST;
-
-            }
-
-            /* Try catch block to catch any exceptions encountered from the user input */
-            catch
-            {
-                MessageBox.Show("Please enter a positive number.");
-            }
         }
 
         /* Method for calculating the medication, surgical, lab, and rehabilitation fees */
         private void CalcMiscCharges()
         {
-            try
-            {
                 /* Algorithm to determine the final cost (for this method) */
                 totalMiscCharges = medicationCharges + surgicalCharges + labFees + rehabilitationFees;
-
-                /* Data validation ensuring the number entered is positive */
-                if (medicationCharges < 0 || surgicalCharges < 0 || labFees < 0 || rehabilitationFees < 0)
-                {
-                    MessageBox.Show("Please don't enter a negative number");
-                    Application.Restart();
-                }
-
-            }
-            catch
-            {
-                MessageBox.Show("Please enter a positive number.");
-            }
         }
 
         /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
         private void CalcTotalCharges()
         {
-
-
-            /* Declaration of the final hospital cost */
-            decimal totalHospitalCost;
-
             /* Algorithm to collate the final costs of the other methods and output to user */
             totalHospitalCost = totalMiscCharges + totalHospitalStayCost;
 
             /* Output to user */
             finalCostOutputLabel.Text = totalHospitalCost.ToString("c");
-
         }
 
         private void exitFormButton_Click(object sender, EventArgs e)
