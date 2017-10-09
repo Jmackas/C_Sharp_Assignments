@@ -12,10 +12,16 @@ namespace hospitalTotalCostCalculator
 {
     public partial class hospitalTotalCostCalculator : Form
     {
+        /* Public variable declarations */
+            /* Variable declaration for output of added costs */
+            decimal totalMiscCharges;
+
+            /* Output cost for living at the hospital */
+            decimal totalHospitalStayCost;
+
         public hospitalTotalCostCalculator()
         {
             InitializeComponent();
-
         }
 
         /* On 'calculate' button select method */
@@ -40,8 +46,6 @@ namespace hospitalTotalCostCalculator
                 decimal amountOfDays;
                 /* Constant declaration for static price of day at hospital */
                 const decimal oneDayCost = 350;
-                /* Output cost for living at the hospital */
-                decimal totalHospitalStayCost;
 
                 /* Parsing user input */
                 amountOfDays = decimal.Parse(amountOfDaysText.Text);
@@ -63,9 +67,6 @@ namespace hospitalTotalCostCalculator
             /* Variable declaration for medication, surgical, lab, and rehabilitation fee input */
             decimal medicationCharges, surgicalCharges, labFees, rehabilitationFees;
 
-            /* Variable declaration for output of added costs */
-            decimal totalMiscCharges;
-
             /* Parsing user input */
             medicationCharges = decimal.Parse(medicationChargesText.Text);
             surgicalCharges = decimal.Parse(surgicalChargesText.Text);
@@ -79,9 +80,14 @@ namespace hospitalTotalCostCalculator
         /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
         private void CalcTotalCharges()
         {
+            /* Declaration of the final hospital cost */
             decimal totalHospitalCost;
 
-            totalHospitalCost = totalMiscCharges + totalHospitalCost;
+            /* Algorithm to collate the final costs of the other methods and output to user */
+            totalHospitalCost = totalMiscCharges + totalHospitalStayCost;
+
+            /* Output to user */
+            finalCostOutputLabel.Text = totalHospitalCost.ToString();
         }
 
         private void exitFormButton_Click(object sender, EventArgs e)

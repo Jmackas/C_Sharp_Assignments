@@ -6,6 +6,8 @@
 
         Remember to output the values as a cost. For decimal, it needs the '(c)' output.
 
+        Remember to add a clear label button.
+
         Does the application need to output all the values of the methods to the user?
 */
 
