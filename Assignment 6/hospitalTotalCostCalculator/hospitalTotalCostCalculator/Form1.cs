@@ -45,13 +45,13 @@ namespace hospitalTotalCostCalculator
                 /* Variable declaration for user input days spent in the hospital */
                 decimal amountOfDays;
                 /* Constant declaration for static price of day at hospital */
-                const decimal oneDayCost = 350;
+                const decimal ONEDAYCOST = 350;
 
                 /* Parsing user input */
                 amountOfDays = decimal.Parse(amountOfDaysText.Text);
 
                 /* Algorithm to determine the final cost (for this method) */
-                totalHospitalStayCost = amountOfDays * oneDayCost;
+                totalHospitalStayCost = amountOfDays * ONEDAYCOST;
 
             }
 

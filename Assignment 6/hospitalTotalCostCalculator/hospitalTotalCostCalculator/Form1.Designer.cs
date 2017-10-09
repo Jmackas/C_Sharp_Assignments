@@ -147,9 +147,9 @@
             // finalCostOutputLabel
             // 
             this.finalCostOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.finalCostOutputLabel.Location = new System.Drawing.Point(211, 268);
+            this.finalCostOutputLabel.Location = new System.Drawing.Point(212, 268);
             this.finalCostOutputLabel.Name = "finalCostOutputLabel";
-            this.finalCostOutputLabel.Size = new System.Drawing.Size(100, 13);
+            this.finalCostOutputLabel.Size = new System.Drawing.Size(100, 20);
             this.finalCostOutputLabel.TabIndex = 12;
             // 
             // clearValuesButton
@@ -163,7 +163,7 @@
             // 
             // calculateTotalCostButton
             // 
-            this.calculateTotalCostButton.Location = new System.Drawing.Point(211, 300);
+            this.calculateTotalCostButton.Location = new System.Drawing.Point(212, 316);
             this.calculateTotalCostButton.Name = "calculateTotalCostButton";
             this.calculateTotalCostButton.Size = new System.Drawing.Size(100, 23);
             this.calculateTotalCostButton.TabIndex = 14;
