@@ -4,6 +4,8 @@
 
         Don't forget try catch block for each method.
 
+        Remember to output the values as a cost. For decimal, it needs the '(c)' output.
+
         Does the application need to output all the values of the methods to the user?
 */
 
