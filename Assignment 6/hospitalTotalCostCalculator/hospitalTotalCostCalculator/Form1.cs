@@ -29,11 +29,12 @@ namespace hospitalTotalCostCalculator
             /* Invokes the 'CalcTotalCharges' method */
             CalcTotalCharges();
         }
-        
+
         /* Method for calculating the base charge for staying at the hospital */
         private void CalcStayCharge()
         {
-            try {
+            try
+            {
                 /* Variable declaration for user input days spent in the hospital */
                 decimal amountOfDays;
                 /* Constant declaration for static price of day at hospital */
@@ -49,7 +50,8 @@ namespace hospitalTotalCostCalculator
             }
 
             /* Try catch block to catch any exceptions encountered from the user input */
-            catch {
+            catch
+            {
                 MessageBox.Show("Please enter a positive number.");
             }
 
