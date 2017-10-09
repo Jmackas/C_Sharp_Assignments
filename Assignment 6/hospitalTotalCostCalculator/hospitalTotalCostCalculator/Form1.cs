@@ -12,11 +12,16 @@ namespace hospitalTotalCostCalculator
 {
     public partial class hospitalTotalCostCalculator : Form
     {
-        /* Public variable declarations */
+        /* Variable declaration for amount of days at hospital, medication, surgical, lab, and rehabilitation fee input */
+        decimal amountOfDays, medicationCharges, surgicalCharges, labFees, rehabilitationFees;
+
+        /* Constant declaration for static price of day at hospital */
+        const decimal ONEDAYCOST = 350;
+
         /* Variable declaration for output of added costs */
         private decimal totalMiscCharges;
 
-        /* Output cost for living at the hospital */
+        /* Variable declaration for output cost for living at the hospital */
         private decimal totalHospitalStayCost;
 
         public hospitalTotalCostCalculator()
@@ -42,13 +47,15 @@ namespace hospitalTotalCostCalculator
         {
             try
             {
-                /* Variable declaration for user input days spent in the hospital */
-                decimal amountOfDays;
-                /* Constant declaration for static price of day at hospital */
-                const decimal ONEDAYCOST = 350;
-
                 /* Parsing user input */
                 amountOfDays = decimal.Parse(amountOfDaysText.Text);
+
+                /* Data validation ensuring the number entered is positive */
+                if (amountOfDays < 0)
+                {
+                    MessageBox.Show("Please don't enter a negative number");
+                    Application.Restart();
+                }
 
                 /* Algorithm to determine the final cost (for this method) */
                 totalHospitalStayCost = amountOfDays * ONEDAYCOST;
@@ -67,9 +74,6 @@ namespace hospitalTotalCostCalculator
         {
             try
             {
-                /* Variable declaration for medication, surgical, lab, and rehabilitation fee input */
-                decimal medicationCharges, surgicalCharges, labFees, rehabilitationFees;
-
                 /* Parsing user input */
                 medicationCharges = decimal.Parse(medicationChargesText.Text);
                 surgicalCharges = decimal.Parse(surgicalChargesText.Text);
@@ -78,6 +82,13 @@ namespace hospitalTotalCostCalculator
 
                 /* Algorithm to determine the final cost (for this method) */
                 totalMiscCharges = medicationCharges + surgicalCharges + labFees + rehabilitationFees;
+
+                /* Data validation ensuring the number entered is positive */
+                if (medicationCharges < 0 || surgicalCharges < 0 || labFees < 0 || rehabilitationFees < 0)
+                {
+                    MessageBox.Show("Please don't enter a negative number");
+                    Application.Restart();
+                }
 
             }
             catch
@@ -110,7 +121,7 @@ namespace hospitalTotalCostCalculator
 
         private void clearValuesButton_Click(object sender, EventArgs e)
         {
-            /* Clear all the input/output labels */
+            /* Clear all the input/output labels on button select */
             amountOfDaysText.Text = "";
             medicationChargesText.Text = "";
             surgicalChargesText.Text = "";
