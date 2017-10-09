@@ -14,10 +14,10 @@ namespace hospitalTotalCostCalculator
     {
         /* Public variable declarations */
             /* Variable declaration for output of added costs */
-            decimal totalMiscCharges;
+            private decimal totalMiscCharges;
 
             /* Output cost for living at the hospital */
-            decimal totalHospitalStayCost;
+            private decimal totalHospitalStayCost;
 
         public hospitalTotalCostCalculator()
         {
@@ -25,7 +25,7 @@ namespace hospitalTotalCostCalculator
         }
 
         /* On 'calculate' button select method */
-        private void calculateTotalCostButton_Click(object sender, EventArgs e)
+        private void calculateTotalCostButton_Click_1(object sender, EventArgs e)
         {
             /* Invokes the 'CalcStayCharge' method */
             CalcStayCharge();
@@ -52,6 +52,7 @@ namespace hospitalTotalCostCalculator
 
                 /* Algorithm to determine the final cost (for this method) */
                 totalHospitalStayCost = amountOfDays * oneDayCost;
+
             }
 
             /* Try catch block to catch any exceptions encountered from the user input */
@@ -64,35 +65,52 @@ namespace hospitalTotalCostCalculator
         /* Method for calculating the medication, surgical, lab, and rehabilitation fees */
         private void CalcMiscCharges()
         {
-            /* Variable declaration for medication, surgical, lab, and rehabilitation fee input */
-            decimal medicationCharges, surgicalCharges, labFees, rehabilitationFees;
+            try
+            {
+                /* Variable declaration for medication, surgical, lab, and rehabilitation fee input */
+                decimal medicationCharges, surgicalCharges, labFees, rehabilitationFees;
 
-            /* Parsing user input */
-            medicationCharges = decimal.Parse(medicationChargesText.Text);
-            surgicalCharges = decimal.Parse(surgicalChargesText.Text);
-            labFees = decimal.Parse(labFeesText.Text);
-            rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
+                /* Parsing user input */
+                medicationCharges = decimal.Parse(medicationChargesText.Text);
+                surgicalCharges = decimal.Parse(surgicalChargesText.Text);
+                labFees = decimal.Parse(labFeesText.Text);
+                rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
 
-            /* Algorithm to determine the final cost (for this method) */
-            totalMiscCharges = medicationCharges + surgicalCharges + labFees + rehabilitationFees;
+                /* Algorithm to determine the final cost (for this method) */
+                totalMiscCharges = medicationCharges + surgicalCharges + labFees + rehabilitationFees;
+
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a positive number.");
+            }
         }
 
         /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
         private void CalcTotalCharges()
         {
-            /* Declaration of the final hospital cost */
-            decimal totalHospitalCost;
 
-            /* Algorithm to collate the final costs of the other methods and output to user */
-            totalHospitalCost = totalMiscCharges + totalHospitalStayCost;
 
-            /* Output to user */
-            finalCostOutputLabel.Text = totalHospitalCost.ToString();
+                /* Declaration of the final hospital cost */
+                decimal totalHospitalCost;
+
+                /* Algorithm to collate the final costs of the other methods and output to user */
+                totalHospitalCost = totalMiscCharges + totalHospitalStayCost;
+
+                /* Output to user */
+                finalCostOutputLabel.Text = totalHospitalCost.ToString();
+
+            
+
+           
+            
         }
 
         private void exitFormButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+        
     }
 }

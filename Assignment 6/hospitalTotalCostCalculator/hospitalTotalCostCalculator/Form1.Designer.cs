@@ -169,6 +169,7 @@
             this.calculateTotalCostButton.TabIndex = 14;
             this.calculateTotalCostButton.Text = "Calculate";
             this.calculateTotalCostButton.UseVisualStyleBackColor = true;
+            this.calculateTotalCostButton.Click += new System.EventHandler(this.calculateTotalCostButton_Click_1);
             // 
             // exitFormButton
             // 
