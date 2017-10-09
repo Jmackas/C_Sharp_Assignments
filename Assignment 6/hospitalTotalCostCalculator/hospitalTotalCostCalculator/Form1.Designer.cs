@@ -169,7 +169,6 @@
             this.calculateTotalCostButton.TabIndex = 14;
             this.calculateTotalCostButton.Text = "Calculate";
             this.calculateTotalCostButton.UseVisualStyleBackColor = true;
-            this.calculateTotalCostButton.Click += new System.EventHandler(this.calculateTotalCostButton_Click);
             // 
             // exitFormButton
             // 
@@ -179,7 +178,7 @@
             this.exitFormButton.TabIndex = 15;
             this.exitFormButton.Text = "Exit";
             this.exitFormButton.UseVisualStyleBackColor = true;
-//            this.exitFormButton.Click += new System.EventHandler(this.exitFormButton_Click);
+            this.exitFormButton.Click += new System.EventHandler(this.exitFormButton_Click);
             // 
             // hospitalTotalCostCalculator
             // 

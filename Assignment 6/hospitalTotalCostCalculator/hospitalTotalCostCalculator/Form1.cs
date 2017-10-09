@@ -50,7 +50,7 @@ namespace hospitalTotalCostCalculator
 
             /* Try catch block to catch any exceptions encountered from the user input */
             catch {
-                MessageBox.Show("Please enter a positive number.,");
+                MessageBox.Show("Please enter a positive number.");
             }
 
 
@@ -59,7 +59,7 @@ namespace hospitalTotalCostCalculator
         /* Method for calculating the medication, surgical, lab, and rehabilitation fees */
         private void CalcMiscCharges()
         {
-            decimal 
+
         }
 
         /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
@@ -68,10 +68,8 @@ namespace hospitalTotalCostCalculator
 
         }
 
-
         private void exitFormButton_Click(object sender, EventArgs e)
         {
-            /* Close the application on button select */
             this.Close();
         }
     }
