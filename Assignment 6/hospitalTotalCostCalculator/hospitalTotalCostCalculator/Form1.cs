@@ -58,15 +58,38 @@ namespace hospitalTotalCostCalculator
                 rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
 
                 /* If statement to test that all variables are above 0 */
-                if (amountOfDays <= 0 || medicationCharges <= 0 || surgicalCharges <= 0 || labFees <= 0 || rehabilitationFees <= 0)
+                if (amountOfDays <= 0)
                 {
                     MessageBox.Show("Please enter a number above 0");
                     amountOfDaysText.Text = "";
+                }
+
+                else if (medicationCharges <= 0)
+                    
+                {
+                    MessageBox.Show("Please enter a number above 0");
                     medicationChargesText.Text = "";
+                }
+
+                else if (surgicalCharges <= 0)
+
+                {
+                    MessageBox.Show("Please enter a number above 0");
                     surgicalChargesText.Text = "";
+                }
+
+                else if (labFees <= 0)
+
+                {
+                    MessageBox.Show("Please enter a number above 0");
                     labFeesText.Text = "";
+                }
+
+                else if (rehabilitationFees <= 0)
+
+                {
+                    MessageBox.Show("Please enter a number above 0");
                     rehabilitationFeesText.Text = "";
-                    finalCostOutputLabel.Text = "";
                 }
             }
 
