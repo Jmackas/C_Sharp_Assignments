@@ -27,9 +27,6 @@ namespace hospitalTotalCostCalculator
         /* On 'calculate' button select method */
         private void calculateTotalCostButton_Click_1(object sender, EventArgs e)
         {
-            /* Invokes the 'DataValidation' method */
-            DataValidation();
-
             /* Invokes the 'CalcStayCharge' method */
             CalcStayCharge();
 
@@ -40,75 +37,13 @@ namespace hospitalTotalCostCalculator
             CalcTotalCharges();
         }
 
-        private void DataValidation()
-        {
-            /* The purpose of this method is strictly to test the input data */
-
-            try
-            {
-
-                /* Declaration of variables */
-                decimal amountOfDays, medicationCharges, surgicalCharges, labFees, rehabilitationFees;
-
-                /* Parsing all variables */
-                amountOfDays = decimal.Parse(amountOfDaysText.Text);
-                medicationCharges = decimal.Parse(medicationChargesText.Text);
-                surgicalCharges = decimal.Parse(surgicalChargesText.Text);
-                labFees = decimal.Parse(labFeesText.Text);
-                rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
-
-                /* If statement to test that all variables are above 0 */
-                if (amountOfDays <= 0)
-                {
-                    MessageBox.Show("Please enter a number above 0");
-                    amountOfDaysText.Text = "";
-                }
-
-                else if (medicationCharges <= 0)
-                    
-                {
-                    MessageBox.Show("Please enter a number above 0");
-                    medicationChargesText.Text = "";
-                }
-
-                else if (surgicalCharges <= 0)
-
-                {
-                    MessageBox.Show("Please enter a number above 0");
-                    surgicalChargesText.Text = "";
-                }
-
-                else if (labFees <= 0)
-
-                {
-                    MessageBox.Show("Please enter a number above 0");
-                    labFeesText.Text = "";
-                }
-
-                else if (rehabilitationFees <= 0)
-
-                {
-                    MessageBox.Show("Please enter a number above 0");
-                    rehabilitationFeesText.Text = "";
-                }
-            }
-
-            catch
-            {
-                MessageBox.Show("Please enter a number");
-            }
-
-            /* Continue with the program after input has been sanitised */
-        }
-
-
         /* Method for calculating the base charge for staying at the hospital */
         private void CalcStayCharge()
         {
-
+            try
+            {
                 /* Variable declaration for user input days spent in the hospital */
                 decimal amountOfDays;
-
                 /* Constant declaration for static price of day at hospital */
                 const decimal ONEDAYCOST = 350;
 
@@ -118,13 +53,20 @@ namespace hospitalTotalCostCalculator
                 /* Algorithm to determine the final cost (for this method) */
                 totalHospitalStayCost = amountOfDays * ONEDAYCOST;
 
-            /* Try catch block to catch any exceptions encountered from the user input */
+            }
 
+            /* Try catch block to catch any exceptions encountered from the user input */
+            catch
+            {
+                MessageBox.Show("Please enter a positive number.");
+            }
         }
 
         /* Method for calculating the medication, surgical, lab, and rehabilitation fees */
         private void CalcMiscCharges()
         {
+            try
+            {
                 /* Variable declaration for medication, surgical, lab, and rehabilitation fee input */
                 decimal medicationCharges, surgicalCharges, labFees, rehabilitationFees;
 
@@ -137,25 +79,38 @@ namespace hospitalTotalCostCalculator
                 /* Algorithm to determine the final cost (for this method) */
                 totalMiscCharges = medicationCharges + surgicalCharges + labFees + rehabilitationFees;
 
-            
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a positive number.");
+            }
         }
 
         /* Method for calculating the added costs of the methods CalcStayCharge() and CalcMiscCharges() */
         private void CalcTotalCharges()
         {
-                /* Declaration of the final hospital cost */
-                decimal totalHospitalCost;
 
-                /* Algorithm to collate the final costs of the other methods and output to user */
-                totalHospitalCost = totalMiscCharges + totalHospitalStayCost;
 
-                /* Output to user */
-                finalCostOutputLabel.Text = totalHospitalCost.ToString();
+            /* Declaration of the final hospital cost */
+            decimal totalHospitalCost;
+
+            /* Algorithm to collate the final costs of the other methods and output to user */
+            totalHospitalCost = totalMiscCharges + totalHospitalStayCost;
+
+            /* Output to user */
+            finalCostOutputLabel.Text = totalHospitalCost.ToString();
+
+
+
+
+
         }
 
         private void exitFormButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+
     }
 }
