@@ -32,6 +32,10 @@ namespace hospitalTotalCostCalculator
         /* On 'calculate' button select method */
         private void calculateTotalCostButton_Click_1(object sender, EventArgs e)
         {
+
+            /* Validation of all input */
+            DataValidation();
+
             /* Invokes the 'CalcStayCharge' method */
             CalcStayCharge();
 
@@ -42,14 +46,27 @@ namespace hospitalTotalCostCalculator
             CalcTotalCharges();
         }
 
+        private void DataValidation()
+        {
+            try {
+                /* Parsing user input */
+                amountOfDays = decimal.Parse(amountOfDaysText.Text);
+                medicationCharges = decimal.Parse(medicationChargesText.Text);
+                surgicalCharges = decimal.Parse(surgicalChargesText.Text);
+                labFees = decimal.Parse(labFeesText.Text);
+                rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
+
+            }
+            catch {
+                MessageBox.Show("Please enter a valid number");
+            }
+        }
+        
         /* Method for calculating the base charge for staying at the hospital */
         private void CalcStayCharge()
         {
             try
             {
-                /* Parsing user input */
-                amountOfDays = decimal.Parse(amountOfDaysText.Text);
-
                 /* Data validation ensuring the number entered is positive */
                 if (amountOfDays < 0)
                 {
@@ -74,12 +91,6 @@ namespace hospitalTotalCostCalculator
         {
             try
             {
-                /* Parsing user input */
-                medicationCharges = decimal.Parse(medicationChargesText.Text);
-                surgicalCharges = decimal.Parse(surgicalChargesText.Text);
-                labFees = decimal.Parse(labFeesText.Text);
-                rehabilitationFees = decimal.Parse(rehabilitationFeesText.Text);
-
                 /* Algorithm to determine the final cost (for this method) */
                 totalMiscCharges = medicationCharges + surgicalCharges + labFees + rehabilitationFees;
 
@@ -109,7 +120,7 @@ namespace hospitalTotalCostCalculator
             totalHospitalCost = totalMiscCharges + totalHospitalStayCost;
 
             /* Output to user */
-            finalCostOutputLabel.Text = totalHospitalCost.ToString();
+            finalCostOutputLabel.Text = totalHospitalCost.ToString("c");
 
         }
 
