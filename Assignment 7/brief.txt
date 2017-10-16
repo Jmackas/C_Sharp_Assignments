@@ -1,0 +1,14 @@
+In the Chap07 folder of the Student Sample Programs, you will find a file named Sales.txt. Create an application that reads this file’s contents into an array, displays the array’s contents in a ListBox control.  You also need calculate and display the following:
+
+- The average of the values in the array
+- The largest value in the array
+- The smallest value in the array
+
+For this question you will have to design a GUI. To achieve full marks, your solution must:
+Meets the client requirements specified above;
+Work correctly;
+
+- Contain appropriate comments;
+- Use appropriate indentation; and
+- Use appropriate methods
+- Follow conventions for naming application, variables, controls, constants and methods
