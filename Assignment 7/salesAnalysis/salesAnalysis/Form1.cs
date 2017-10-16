@@ -90,8 +90,14 @@ namespace salesAnalysis
         /* Method for converting the listbox contents to an array */
         private void ListboxToArray()
         {
+            /* Converting the string to a declared array */
             string[] listBoxToArray = numberList.Select(c => c.ToString()).ToArray();
-            
+        }
+
+        /* Method for sorting the code */
+        private void SortButton_Click(object sender, EventArgs e)
+        {
+
         }
 
         /* Method for clearing the form input */
@@ -99,12 +105,6 @@ namespace salesAnalysis
         {
             //Clear listbox
             arrayOutputListbox.Items.Clear();
-        }
-
-        /* Method for sorting the code */
-        private void SortButton_Click(object sender, EventArgs e)
-        {
-
         }
 
         /* Method for closing the program */
