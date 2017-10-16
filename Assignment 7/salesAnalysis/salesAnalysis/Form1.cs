@@ -9,7 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
-/* OpenFileDialog code was acquired from Leon Tan (with permission), and modified */
+/* 
+ * OpenFileDialog code was acquired from Leon Tan (with permission), and modified 
+ *  
+ */
 
 namespace salesAnalysis
 {
@@ -42,7 +45,7 @@ namespace salesAnalysis
             /* Declaration of variable for the streamreader */
             StreamReader inputFile;
 
-            /* Restrict the file type for the open file dialog 
+            /* Restrict the file type for the open file dialog */
             openFileDialog.Filter = "Text Files | *.txt";
 
             /* Assign the default file type to be selected as a .txt */
@@ -73,8 +76,8 @@ namespace salesAnalysis
 
                 }
 
+                /* Counting the amount of items present in the listbox, and adding it to a variable */
                 listBoxCounter = arrayOutputListbox.Items.Count.ToString();
-
 
                 /* Close the insertion of files upon completion */
                 inputFile.Close();
