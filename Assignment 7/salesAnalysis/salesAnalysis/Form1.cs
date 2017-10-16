@@ -17,27 +17,30 @@ namespace salesAnalysis
             InitializeComponent();
         }
 
+        /* Method for inserting the list */
         private void insertArrayButton_Click(object sender, EventArgs e)
         {
 
-            string numberList;
-            //Declare the variable for the stream reader
-            StreamReader inputFile;
         }
 
+        /* Method for clearing the form input */
         private void clearButton_Click(object sender, EventArgs e)
         {
-
+            //Clear listbox
+            arrayOutputListbox.Items.Clear();
         }
 
+        /* Method for sorting the code */
         private void SortButton_Click(object sender, EventArgs e)
         {
 
         }
 
+        /* Method for closing the program */
         private void exitProgramButton_Click(object sender, EventArgs e)
         {
-
+            /* Close Program */
+            this.Close();
         }
     }
 }
