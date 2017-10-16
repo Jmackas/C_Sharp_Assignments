@@ -52,7 +52,6 @@ namespace salesAnalysis
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
 
-
                 /* Open the file to get the streamreader file */
                 inputFile = (File.OpenText(openFileDialog.FileName));
 
@@ -67,6 +66,7 @@ namespace salesAnalysis
 
                     /* Add the numbers to the listbox */
                     arrayOutputListbox.Items.Add(numberList);
+
                 }
 
                 /* Close the insertion of files upon completion */
