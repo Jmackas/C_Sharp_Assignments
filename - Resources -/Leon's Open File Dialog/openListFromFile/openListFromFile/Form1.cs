@@ -82,8 +82,7 @@ namespace openListFromFile
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            //Close Program
-            this.Close();
+            
             
         }
 
