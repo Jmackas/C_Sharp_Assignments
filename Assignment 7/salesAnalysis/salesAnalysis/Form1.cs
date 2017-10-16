@@ -20,7 +20,9 @@ namespace salesAnalysis
         /* Method for inserting the list */
         private void insertArrayButton_Click(object sender, EventArgs e)
         {
-
+            string customArray;
+            string[] domains = arrayOutputListbox.SelectedItems.OfType<string>().ToArray();
+            MessageBox.Show("mmee");
         }
 
         /* Method for clearing the form input */
