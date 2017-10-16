@@ -54,7 +54,7 @@
             this.insertArrayButton.TabIndex = 1;
             this.insertArrayButton.Text = "Insert File";
             this.insertArrayButton.UseVisualStyleBackColor = true;
-            this.insertArrayButton.Click += new System.EventHandler(this.insertArrayButton_Click);
+//            this.insertArrayButton.Click += new System.EventHandler(this.insertArrayButton_Click);
             // 
             // clearButton
             // 

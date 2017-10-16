@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace salesAnalysis
 {
@@ -17,12 +18,24 @@ namespace salesAnalysis
             InitializeComponent();
         }
 
-        /* Method for inserting the list */
+        /* Method encapsulation for opening the file's contents and converting to C# */
         private void insertArrayButton_Click(object sender, EventArgs e)
         {
-            string customArray;
-            string[] domains = arrayOutputListbox.SelectedItems.OfType<string>().ToArray();
-            MessageBox.Show("mmee");
+            /* Invoke methods on select */
+            InsertionOfFile();
+            ListboxToArray();
+        }
+
+        /* Method for opening the file dialog and importing into the project*/
+        private void InsertionOfFile()
+        {
+
+        }
+
+        /* Method for converting the listbox contents to an array */
+        private void ListboxToArray()
+        {
+
         }
 
         /* Method for clearing the form input */
