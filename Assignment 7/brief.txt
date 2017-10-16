@@ -1,3 +1,7 @@
+Notes:
+	The method 'ListboxToArray' is public as i'll need that array somewhere else.
+
+
 In the Chap07 folder of the Student Sample Programs, you will find a file named Sales.txt. Create an application that reads this file’s contents into an array, displays the array’s contents in a ListBox control.  You also need calculate and display the following:
 
 - The average of the values in the array

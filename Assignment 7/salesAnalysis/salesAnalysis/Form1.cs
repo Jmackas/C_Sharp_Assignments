@@ -18,6 +18,10 @@ namespace salesAnalysis
 {
     public partial class salesAnalysis : Form
     {
+
+        /* Declare varible for numbers */
+        string numberList;
+
         /* Counting number of variables in the array to code */
         string listBoxCounter;
 
@@ -38,9 +42,6 @@ namespace salesAnalysis
         /* Method for opening the file dialog and importing into the project*/
         private void InsertionOfFile()
         {
-
-            /* Declare varible for numbers */
-            string numberList;
 
             /* Declaration of variable for the streamreader */
             StreamReader inputFile;
@@ -73,7 +74,6 @@ namespace salesAnalysis
 
                     /* Add the numbers to the listbox */
                     arrayOutputListbox.Items.Add(numberList);
-
                 }
 
                 /* Counting the amount of items present in the listbox, and adding it to a variable */
@@ -83,14 +83,13 @@ namespace salesAnalysis
                 inputFile.Close();
 
             }
-
-
         }
 
         /* Method for converting the listbox contents to an array */
-        private void ListboxToArray()
+        public void ListboxToArray()
         {
-
+            string[] listBoxToArray = numberList.Select(c => c.ToString()).ToArray();
+            
         }
 
         /* Method for clearing the form input */
