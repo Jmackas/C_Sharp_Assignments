@@ -28,7 +28,6 @@ namespace salesAnalysis
         /* Declaration of the string array */
         string[] listBoxToArray;
 
-
         public salesAnalysis()
         {
             InitializeComponent();
@@ -93,7 +92,6 @@ namespace salesAnalysis
         {
             /* Converting the string to a declared array */
             string[] listBoxToArray = numberList.Select(c => c.ToString()).ToArray();
-
         }
 
         /* Method for sorting the code */
