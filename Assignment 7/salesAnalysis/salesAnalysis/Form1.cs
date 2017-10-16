@@ -25,8 +25,9 @@ namespace salesAnalysis
         /* Counting number of variables in the array to code */
         string listBoxCounter;
 
-        /* Declaration of the array */
+        /* Declaration of the string array */
         string[] listBoxToArray;
+
 
         public salesAnalysis()
         {
@@ -92,14 +93,28 @@ namespace salesAnalysis
         {
             /* Converting the string to a declared array */
             string[] listBoxToArray = numberList.Select(c => c.ToString()).ToArray();
+
         }
 
         /* Method for sorting the code */
         private void SortButton_Click(object sender, EventArgs e)
         {
+            /*
+            FindArrayAverage();
+            */
+            }
+
+        /* Method for determining the average of the array */
+        /*
+        private void FindArrayAverage()
+        {
+            for (int index = 0; index < units.Length; index++)
+            {
+                total += units[index];
+            }
 
         }
-
+        */
         /* Method for clearing the form input */
         private void clearButton_Click(object sender, EventArgs e)
         {
