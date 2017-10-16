@@ -15,6 +15,10 @@ namespace salesAnalysis
 {
     public partial class salesAnalysis : Form
     {
+        /* Counting number of variables in the array to code */
+        string listBoxCounter;
+
+
         public salesAnalysis()
         {
             InitializeComponent();
@@ -69,9 +73,15 @@ namespace salesAnalysis
 
                 }
 
+                listBoxCounter = arrayOutputListbox.Items.Count.ToString();
+
+
                 /* Close the insertion of files upon completion */
                 inputFile.Close();
+
             }
+
+
         }
 
         /* Method for converting the listbox contents to an array */
