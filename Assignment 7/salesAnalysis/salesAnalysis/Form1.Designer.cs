@@ -40,7 +40,7 @@
             // 
             this.arrayOutputListbox.FormattingEnabled = true;
             this.arrayOutputListbox.Location = new System.Drawing.Point(8, 62);
-            this.arrayOutputListbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.arrayOutputListbox.Margin = new System.Windows.Forms.Padding(2);
             this.arrayOutputListbox.Name = "arrayOutputListbox";
             this.arrayOutputListbox.Size = new System.Drawing.Size(381, 212);
             this.arrayOutputListbox.TabIndex = 0;
@@ -48,18 +48,18 @@
             // insertArrayButton
             // 
             this.insertArrayButton.Location = new System.Drawing.Point(8, 8);
-            this.insertArrayButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.insertArrayButton.Margin = new System.Windows.Forms.Padding(2);
             this.insertArrayButton.Name = "insertArrayButton";
             this.insertArrayButton.Size = new System.Drawing.Size(91, 37);
             this.insertArrayButton.TabIndex = 1;
             this.insertArrayButton.Text = "Insert File";
             this.insertArrayButton.UseVisualStyleBackColor = true;
-//            this.insertArrayButton.Click += new System.EventHandler(this.insertArrayButton_Click);
+            this.insertArrayButton.Click += new System.EventHandler(this.insertArrayButton_Click_1);
             // 
             // clearButton
             // 
             this.clearButton.Location = new System.Drawing.Point(8, 316);
-            this.clearButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(2);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(91, 37);
             this.clearButton.TabIndex = 2;
@@ -70,7 +70,7 @@
             // SortButton
             // 
             this.SortButton.Location = new System.Drawing.Point(130, 289);
-            this.SortButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SortButton.Margin = new System.Windows.Forms.Padding(2);
             this.SortButton.Name = "SortButton";
             this.SortButton.Size = new System.Drawing.Size(138, 64);
             this.SortButton.TabIndex = 3;
@@ -81,7 +81,7 @@
             // exitProgramButton
             // 
             this.exitProgramButton.Location = new System.Drawing.Point(296, 316);
-            this.exitProgramButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.exitProgramButton.Margin = new System.Windows.Forms.Padding(2);
             this.exitProgramButton.Name = "exitProgramButton";
             this.exitProgramButton.Size = new System.Drawing.Size(91, 37);
             this.exitProgramButton.TabIndex = 4;
@@ -103,7 +103,7 @@
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.insertArrayButton);
             this.Controls.Add(this.arrayOutputListbox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "salesAnalysis";
             this.Text = "Sales Analysis";
             this.ResumeLayout(false);
