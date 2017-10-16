@@ -16,5 +16,28 @@ namespace salesAnalysis
         {
             InitializeComponent();
         }
+
+        private void insertArrayButton_Click(object sender, EventArgs e)
+        {
+
+            string numberList;
+            //Declare the variable for the stream reader
+            StreamReader inputFile;
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SortButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitProgramButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

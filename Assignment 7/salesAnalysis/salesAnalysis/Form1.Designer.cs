@@ -54,6 +54,7 @@
             this.insertArrayButton.TabIndex = 1;
             this.insertArrayButton.Text = "Insert File";
             this.insertArrayButton.UseVisualStyleBackColor = true;
+            this.insertArrayButton.Click += new System.EventHandler(this.insertArrayButton_Click);
             // 
             // clearButton
             // 
@@ -64,6 +65,7 @@
             this.clearButton.TabIndex = 2;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // SortButton
             // 
@@ -74,6 +76,7 @@
             this.SortButton.TabIndex = 3;
             this.SortButton.Text = "Sort";
             this.SortButton.UseVisualStyleBackColor = true;
+            this.SortButton.Click += new System.EventHandler(this.SortButton_Click);
             // 
             // exitProgramButton
             // 
@@ -84,6 +87,7 @@
             this.exitProgramButton.TabIndex = 4;
             this.exitProgramButton.Text = "Exit";
             this.exitProgramButton.UseVisualStyleBackColor = true;
+            this.exitProgramButton.Click += new System.EventHandler(this.exitProgramButton_Click);
             // 
             // openFileDialog
             // 
