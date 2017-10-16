@@ -25,6 +25,8 @@ namespace salesAnalysis
         /* Counting number of variables in the array to code */
         string listBoxCounter;
 
+        /* Declaration of the array */
+        string[] listBoxToArray;
 
         public salesAnalysis()
         {
@@ -86,7 +88,7 @@ namespace salesAnalysis
         }
 
         /* Method for converting the listbox contents to an array */
-        public void ListboxToArray()
+        private void ListboxToArray()
         {
             string[] listBoxToArray = numberList.Select(c => c.ToString()).ToArray();
             
