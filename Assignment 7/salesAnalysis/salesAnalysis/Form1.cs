@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace salesAnalysis
 {
-    public partial class Form1 : Form
+    public partial class salesAnalysis : Form
     {
-        public Form1()
+        public salesAnalysis()
         {
             InitializeComponent();
         }
