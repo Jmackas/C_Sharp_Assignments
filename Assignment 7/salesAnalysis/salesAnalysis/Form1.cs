@@ -25,8 +25,6 @@ namespace salesAnalysis
         /* Counting number of variables in the array to code */
         string listBoxCounter;
 
-        /* Declaration of the string array */
-        string[] listBoxToArray;
 
         public salesAnalysis()
         {
