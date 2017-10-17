@@ -18,16 +18,11 @@ namespace salesAnalysis
 {
     public partial class salesAnalysis : Form
     {
-
         /* Declare varible for numbers */
         string numberList;
 
         /* Counting number of variables in the array to code */
         string listBoxCounter;
-
-        /* Declaration of array outside of method */
-        int[] myInts;
-
 
         public salesAnalysis()
         {
@@ -102,18 +97,13 @@ namespace salesAnalysis
         private void SortButton_Click(object sender, EventArgs e)
         {
             FindArrayAverage();
-         }
+        }
 
         /* Method for determining the average of the array */
         private void FindArrayAverage()
         {
-            for (int index = 0; index < units.Length; index++)
-            {
-                total += units[index];
-            }
-
         }
-        
+
         /* Method for clearing the form input */
         private void clearButton_Click(object sender, EventArgs e)
         {
