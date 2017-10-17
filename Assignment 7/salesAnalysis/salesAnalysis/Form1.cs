@@ -93,10 +93,8 @@ namespace salesAnalysis
             /* Converting the string to a declared array */
             string[] listBoxToArray = numberList.Select(c => c.ToString()).ToArray();
 
-            /* Converting the string array to a decimal array */
+            /* Converting the string array to an int array */
             int[] myInts = Array.ConvertAll(listBoxToArray, int.Parse);
-
-
         }
 
         /* Method for sorting the code */
