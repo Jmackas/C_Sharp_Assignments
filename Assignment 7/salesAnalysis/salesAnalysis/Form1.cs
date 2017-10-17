@@ -25,6 +25,9 @@ namespace salesAnalysis
         /* Counting number of variables in the array to code */
         string listBoxCounter;
 
+        /* Declaration of array outside of method */
+        int[] myInts;
+
 
         public salesAnalysis()
         {
@@ -98,13 +101,10 @@ namespace salesAnalysis
         /* Method for sorting the code */
         private void SortButton_Click(object sender, EventArgs e)
         {
-            /*
             FindArrayAverage();
-            */
-            }
+         }
 
         /* Method for determining the average of the array */
-        /*
         private void FindArrayAverage()
         {
             for (int index = 0; index < units.Length; index++)
@@ -113,7 +113,7 @@ namespace salesAnalysis
             }
 
         }
-        */
+        
         /* Method for clearing the form input */
         private void clearButton_Click(object sender, EventArgs e)
         {
