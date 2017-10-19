@@ -34,7 +34,12 @@
             this.SortButton = new System.Windows.Forms.Button();
             this.exitProgramButton = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.label1 = new System.Windows.Forms.Label();
+            this.averageTextLabel = new System.Windows.Forms.Label();
+            this.largestValueTextLabel = new System.Windows.Forms.Label();
+            this.averageValueOutputLabel = new System.Windows.Forms.Label();
+            this.smallestValueTextLabel = new System.Windows.Forms.Label();
+            this.largestValueOutputLabel = new System.Windows.Forms.Label();
+            this.smallestValueOutputLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // arrayOutputListbox
@@ -59,7 +64,7 @@
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(8, 316);
+            this.clearButton.Location = new System.Drawing.Point(8, 403);
             this.clearButton.Margin = new System.Windows.Forms.Padding(2);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(91, 37);
@@ -70,7 +75,7 @@
             // 
             // SortButton
             // 
-            this.SortButton.Location = new System.Drawing.Point(130, 289);
+            this.SortButton.Location = new System.Drawing.Point(129, 376);
             this.SortButton.Margin = new System.Windows.Forms.Padding(2);
             this.SortButton.Name = "SortButton";
             this.SortButton.Size = new System.Drawing.Size(138, 64);
@@ -81,7 +86,7 @@
             // 
             // exitProgramButton
             // 
-            this.exitProgramButton.Location = new System.Drawing.Point(296, 316);
+            this.exitProgramButton.Location = new System.Drawing.Point(295, 403);
             this.exitProgramButton.Margin = new System.Windows.Forms.Padding(2);
             this.exitProgramButton.Name = "exitProgramButton";
             this.exitProgramButton.Size = new System.Drawing.Size(91, 37);
@@ -94,21 +99,68 @@
             // 
             this.openFileDialog.FileName = "openFileDialog1";
             // 
-            // label1
+            // averageTextLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(308, 271);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.averageTextLabel.AutoSize = true;
+            this.averageTextLabel.Location = new System.Drawing.Point(5, 292);
+            this.averageTextLabel.Name = "averageTextLabel";
+            this.averageTextLabel.Size = new System.Drawing.Size(47, 13);
+            this.averageTextLabel.TabIndex = 5;
+            this.averageTextLabel.Text = "Average";
+            // 
+            // largestValueTextLabel
+            // 
+            this.largestValueTextLabel.AutoSize = true;
+            this.largestValueTextLabel.Location = new System.Drawing.Point(5, 319);
+            this.largestValueTextLabel.Name = "largestValueTextLabel";
+            this.largestValueTextLabel.Size = new System.Drawing.Size(72, 13);
+            this.largestValueTextLabel.TabIndex = 6;
+            this.largestValueTextLabel.Text = "Largest Value";
+            // 
+            // averageValueOutputLabel
+            // 
+            this.averageValueOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.averageValueOutputLabel.Location = new System.Drawing.Point(98, 292);
+            this.averageValueOutputLabel.Name = "averageValueOutputLabel";
+            this.averageValueOutputLabel.Size = new System.Drawing.Size(72, 13);
+            this.averageValueOutputLabel.TabIndex = 7;
+            // 
+            // smallestValueTextLabel
+            // 
+            this.smallestValueTextLabel.AutoSize = true;
+            this.smallestValueTextLabel.Location = new System.Drawing.Point(5, 347);
+            this.smallestValueTextLabel.Name = "smallestValueTextLabel";
+            this.smallestValueTextLabel.Size = new System.Drawing.Size(76, 13);
+            this.smallestValueTextLabel.TabIndex = 8;
+            this.smallestValueTextLabel.Text = "Smallest Value";
+            // 
+            // largestValueOutputLabel
+            // 
+            this.largestValueOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.largestValueOutputLabel.Location = new System.Drawing.Point(98, 319);
+            this.largestValueOutputLabel.Name = "largestValueOutputLabel";
+            this.largestValueOutputLabel.Size = new System.Drawing.Size(72, 13);
+            this.largestValueOutputLabel.TabIndex = 9;
+            // 
+            // smallestValueOutputLabel
+            // 
+            this.smallestValueOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.smallestValueOutputLabel.Location = new System.Drawing.Point(98, 347);
+            this.smallestValueOutputLabel.Name = "smallestValueOutputLabel";
+            this.smallestValueOutputLabel.Size = new System.Drawing.Size(72, 13);
+            this.smallestValueOutputLabel.TabIndex = 10;
             // 
             // salesAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(395, 361);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(395, 447);
+            this.Controls.Add(this.smallestValueOutputLabel);
+            this.Controls.Add(this.largestValueOutputLabel);
+            this.Controls.Add(this.smallestValueTextLabel);
+            this.Controls.Add(this.averageValueOutputLabel);
+            this.Controls.Add(this.largestValueTextLabel);
+            this.Controls.Add(this.averageTextLabel);
             this.Controls.Add(this.exitProgramButton);
             this.Controls.Add(this.SortButton);
             this.Controls.Add(this.clearButton);
@@ -130,7 +182,12 @@
         private System.Windows.Forms.Button SortButton;
         private System.Windows.Forms.Button exitProgramButton;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label averageTextLabel;
+        private System.Windows.Forms.Label largestValueTextLabel;
+        private System.Windows.Forms.Label averageValueOutputLabel;
+        private System.Windows.Forms.Label smallestValueTextLabel;
+        private System.Windows.Forms.Label largestValueOutputLabel;
+        private System.Windows.Forms.Label smallestValueOutputLabel;
     }
 }
 

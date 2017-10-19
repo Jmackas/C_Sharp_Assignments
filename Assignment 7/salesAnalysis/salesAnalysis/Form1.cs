@@ -10,7 +10,9 @@ using System.Windows.Forms;
 using System.IO;
 
 /* 
- * OpenFileDialog code was acquired from Leon Tan (with permission), and modified 
+ * OpenFileDialog code was acquired from Leon Tan (with permission), and modified it slightly.
+ *  
+ *  Would have typically also used lists due to the unknown array size, but persisted with arrays due to the brief requesting them.
  *  
  */
 
@@ -24,6 +26,7 @@ namespace salesAnalysis
         /* Counting number of variables in the array to code */
         string listBoxCounter;
 
+        /* Declare int array */
         int[] myInts;
 
         public salesAnalysis()
@@ -40,9 +43,8 @@ namespace salesAnalysis
         }
 
         /* Method for opening the file dialog and importing into the project*/
-        private void InsertionOfFile()
-        {
-
+        public void InsertionOfFile()
+        { 
             /* Declaration of variable for the streamreader */
             StreamReader inputFile;
 
@@ -86,7 +88,7 @@ namespace salesAnalysis
         }
 
         /* Method for converting the listbox contents to an array */
-        private void ListboxToArray()
+        public void ListboxToArray()
         {
             /* Converting the string to a declared array */
             string[] listBoxToArray = numberList.Select(c => c.ToString()).ToArray();
@@ -106,7 +108,14 @@ namespace salesAnalysis
         private void FindArrayAverage()
         {
 
-          
+            foreach (string name in arr)
+            {
+                Console.WriteLine("Hello " + name);
+            }
+            total += myInts[i];
+                average = total / myInts.Length;
+                averageValueOutputLabel.Text = average.ToString();
+
         }
 
         /* Method for clearing the form input */
