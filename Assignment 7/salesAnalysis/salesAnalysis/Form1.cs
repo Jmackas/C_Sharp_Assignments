@@ -101,20 +101,33 @@ namespace salesAnalysis
         /* Method for sorting the code */
         private void SortButton_Click(object sender, EventArgs e)
         {
+            /* Invoke methods on select */
             FindArrayAverage();
+            FindLargestValue();
+            FindSmallestValue();
         }
 
         /* Method for determining the average of the array */
         private void FindArrayAverage()
         {
-
-            foreach (string name in arr)
+            /* Loop to determine the average */
+            for (int index = 0; index < myInts.Length; index++)
             {
-                Console.WriteLine("Hello " + name);
+                int total = 0;
+                total += myInts[4];
             }
-            total += myInts[i];
-                average = total / myInts.Length;
-                averageValueOutputLabel.Text = average.ToString();
+        }
+
+        /* Method for determining the largest value of the array */
+        private void FindLargestValue()
+        {
+            int maxValue = myInts.Max();
+            int maxIndex = myInts.ToList().IndexOf(maxValue);
+        }
+
+        /* Method for determining the smallest value of the array */
+        private void FindSmallestValue()
+        {
 
         }
 
