@@ -34,6 +34,7 @@
             this.SortButton = new System.Windows.Forms.Button();
             this.exitProgramButton = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // arrayOutputListbox
@@ -93,11 +94,21 @@
             // 
             this.openFileDialog.FileName = "openFileDialog1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(308, 271);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
+            // 
             // salesAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(395, 361);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.exitProgramButton);
             this.Controls.Add(this.SortButton);
             this.Controls.Add(this.clearButton);
@@ -107,6 +118,7 @@
             this.Name = "salesAnalysis";
             this.Text = "Sales Analysis";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -118,6 +130,7 @@
         private System.Windows.Forms.Button SortButton;
         private System.Windows.Forms.Button exitProgramButton;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.Label label1;
     }
 }
 

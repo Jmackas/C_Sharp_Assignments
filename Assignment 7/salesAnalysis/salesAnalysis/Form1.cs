@@ -24,6 +24,8 @@ namespace salesAnalysis
         /* Counting number of variables in the array to code */
         string listBoxCounter;
 
+        int[] myInts;
+
         public salesAnalysis()
         {
             InitializeComponent();
@@ -91,6 +93,7 @@ namespace salesAnalysis
 
             /* Converting the string array to an int array */
             int[] myInts = Array.ConvertAll(listBoxToArray, int.Parse);
+
         }
 
         /* Method for sorting the code */
@@ -102,6 +105,8 @@ namespace salesAnalysis
         /* Method for determining the average of the array */
         private void FindArrayAverage()
         {
+
+          
         }
 
         /* Method for clearing the form input */
