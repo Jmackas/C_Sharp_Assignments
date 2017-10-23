@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
+/* Some of this code was taken from the resources folder on Blackboard */
+
 namespace WorldSeriesWinners
 {
     public partial class worldSeriesWinnersForm : Form
@@ -26,7 +28,27 @@ namespace WorldSeriesWinners
 
         private void TeamLoadOnOpen()
         {
+            // Declaration of teams
+            string teams;
 
+            // A StreamReader variable.
+            StreamReader inputFile;
+
+            // Open the file and get a StreamReader object.
+            inputFile = File.OpenText("Teams.txt");
+
+            //Clear anything in list box
+            teamsListBox.Items.Clear();
+
+            //Read the contents using loop
+            while (!inputFile.EndOfStream)
+            {
+                //Get teams from file
+                teams = inputFile.ReadLine();
+
+                // Add teams to listbox
+                teamsListBox.Items.Add(teams);
+            }
         }
     }
 }

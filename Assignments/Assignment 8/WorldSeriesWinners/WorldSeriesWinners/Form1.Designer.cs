@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.teamsListBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // teamsListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(8, 8);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(332, 199);
-            this.listBox1.TabIndex = 0;
+            this.teamsListBox.FormattingEnabled = true;
+            this.teamsListBox.Location = new System.Drawing.Point(8, 8);
+            this.teamsListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.teamsListBox.Name = "teamsListBox";
+            this.teamsListBox.Size = new System.Drawing.Size(332, 199);
+            this.teamsListBox.TabIndex = 0;
             // 
             // worldSeriesWinnersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(351, 330);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.teamsListBox);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "worldSeriesWinnersForm";
             this.Text = "World Series Winners";
@@ -56,7 +56,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox teamsListBox;
     }
 }
 
