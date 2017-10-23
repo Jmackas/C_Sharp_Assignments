@@ -7,13 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WorldSeriesWinners
 {
-    private class  {
-
-    }
-
     public partial class worldSeriesWinnersForm : Form
     {
         public worldSeriesWinnersForm()
@@ -22,6 +19,12 @@ namespace WorldSeriesWinners
         }
 
         private void worldSeriesWinnersForm_Load(object sender, EventArgs e)
+        {
+            /* Import the list into the program */
+            TeamLoadOnOpen();
+        }
+
+        private void TeamLoadOnOpen()
         {
 
         }
