@@ -51,9 +51,7 @@ namespace WorldSeriesWinners
                 teamsListBox.Items.Add(teams);
             }
 
-            string curItem = teamsListBox.SelectedItem.ToString();
 
-            MessageBox.Show(curItem);
         }
     }
 }
