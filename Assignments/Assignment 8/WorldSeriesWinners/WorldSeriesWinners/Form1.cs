@@ -29,7 +29,7 @@ namespace WorldSeriesWinners
         // Import the teams into the present listbox
         private void TeamLoadOnOpen()
         {
-            // Declaration of teams
+            // Imported items assigned to variable
             string teams;
 
             // A StreamReader variable.
@@ -50,8 +50,13 @@ namespace WorldSeriesWinners
                 // Add teams to listbox
                 teamsListBox.Items.Add(teams);
             }
+            
+        }
 
-
+        private void teamsListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selected = teamsListBox.GetItemText(teamsListBox.SelectedValue);
+            outputValueLabel.Text = selected.ToString();
         }
     }
 }

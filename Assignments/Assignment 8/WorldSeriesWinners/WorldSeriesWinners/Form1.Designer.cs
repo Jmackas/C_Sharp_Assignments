@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.teamsListBox = new System.Windows.Forms.ListBox();
+            this.outputValueLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // teamsListBox
@@ -37,26 +38,39 @@
             this.teamsListBox.Location = new System.Drawing.Point(8, 8);
             this.teamsListBox.Margin = new System.Windows.Forms.Padding(2);
             this.teamsListBox.Name = "teamsListBox";
-            this.teamsListBox.Size = new System.Drawing.Size(332, 199);
+            this.teamsListBox.Size = new System.Drawing.Size(332, 225);
             this.teamsListBox.TabIndex = 0;
+            this.teamsListBox.SelectedIndexChanged += new System.EventHandler(this.teamsListBox_SelectedIndexChanged);
+            // 
+            // outputValueLabel
+            // 
+            this.outputValueLabel.AutoSize = true;
+            this.outputValueLabel.Location = new System.Drawing.Point(89, 272);
+            this.outputValueLabel.Name = "outputValueLabel";
+            this.outputValueLabel.Size = new System.Drawing.Size(35, 13);
+            this.outputValueLabel.TabIndex = 1;
+            this.outputValueLabel.Text = "label1";
             // 
             // worldSeriesWinnersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(351, 330);
+            this.Controls.Add(this.outputValueLabel);
             this.Controls.Add(this.teamsListBox);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "worldSeriesWinnersForm";
             this.Text = "World Series Winners";
             this.Load += new System.EventHandler(this.worldSeriesWinnersForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.ListBox teamsListBox;
+        private System.Windows.Forms.Label outputValueLabel;
     }
 }
 
