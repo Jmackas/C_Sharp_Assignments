@@ -1,0 +1,9 @@
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\bin\Debug\CSV Reader.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\bin\Debug\CSV Reader.pdb
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\obj\x86\Debug\CSV_Reader.Form1.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\obj\x86\Debug\CSV_Reader.Properties.Resources.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader.pdb

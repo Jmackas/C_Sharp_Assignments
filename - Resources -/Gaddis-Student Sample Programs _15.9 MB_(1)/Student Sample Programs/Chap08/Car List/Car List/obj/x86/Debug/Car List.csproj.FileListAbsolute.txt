@@ -1,0 +1,9 @@
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\bin\Debug\Car List.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\bin\Debug\Car List.pdb
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\obj\x86\Debug\Car List.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\obj\x86\Debug\Car_List.Form1.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\obj\x86\Debug\Car_List.Properties.Resources.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\obj\x86\Debug\Car List.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\obj\x86\Debug\Car List.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\obj\x86\Debug\Car List.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Car List\Car List\obj\x86\Debug\Car List.pdb

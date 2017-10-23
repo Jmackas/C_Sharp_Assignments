@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
-/* Some of this code was taken from the resources folder on Blackboard */
+// Some of this code was taken from the resources folder on Blackboard 
 
 namespace WorldSeriesWinners
 {
@@ -22,10 +22,11 @@ namespace WorldSeriesWinners
 
         private void worldSeriesWinnersForm_Load(object sender, EventArgs e)
         {
-            /* Import the list into the program */
+            // Import the list into the program
             TeamLoadOnOpen();
         }
 
+        // Import the teams into the present listbox
         private void TeamLoadOnOpen()
         {
             // Declaration of teams
@@ -49,6 +50,10 @@ namespace WorldSeriesWinners
                 // Add teams to listbox
                 teamsListBox.Items.Add(teams);
             }
+
+            string curItem = teamsListBox.SelectedItem.ToString();
+
+            MessageBox.Show(curItem);
         }
     }
 }

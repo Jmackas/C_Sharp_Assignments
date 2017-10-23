@@ -1,0 +1,9 @@
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\bin\Debug\Random Card.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\bin\Debug\Random Card.pdb
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\obj\x86\Debug\Random Card.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\obj\x86\Debug\Random_Card.Form1.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\obj\x86\Debug\Random_Card.Properties.Resources.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\obj\x86\Debug\Random Card.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\obj\x86\Debug\Random Card.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\obj\x86\Debug\Random Card.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Random Card\Random Card\obj\x86\Debug\Random Card.pdb

@@ -1,0 +1,9 @@
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\bin\Debug\Color Spectrum.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\bin\Debug\Color Spectrum.pdb
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\obj\x86\Debug\Color Spectrum.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\obj\x86\Debug\Color_Spectrum.Form1.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\obj\x86\Debug\Color_Spectrum.Properties.Resources.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\obj\x86\Debug\Color Spectrum.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\obj\x86\Debug\Color Spectrum.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\obj\x86\Debug\Color Spectrum.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Color Spectrum\Color Spectrum\obj\x86\Debug\Color Spectrum.pdb

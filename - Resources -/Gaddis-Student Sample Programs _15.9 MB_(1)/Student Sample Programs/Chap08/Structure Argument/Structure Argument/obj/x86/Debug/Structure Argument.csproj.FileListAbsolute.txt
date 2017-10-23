@@ -1,0 +1,9 @@
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\bin\Debug\Structure Argument.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\bin\Debug\Structure Argument.pdb
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\obj\x86\Debug\Structure Argument.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\obj\x86\Debug\Structure_Argument.Form1.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\obj\x86\Debug\Structure_Argument.Properties.Resources.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\obj\x86\Debug\Structure Argument.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\obj\x86\Debug\Structure Argument.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\obj\x86\Debug\Structure Argument.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap08\Structure Argument\Structure Argument\obj\x86\Debug\Structure Argument.pdb
