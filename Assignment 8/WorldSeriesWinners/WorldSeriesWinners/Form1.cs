@@ -10,6 +10,10 @@ using System.Windows.Forms;
 
 namespace WorldSeriesWinners
 {
+    private class  {
+
+    }
+
     public partial class worldSeriesWinnersForm : Form
     {
         public worldSeriesWinnersForm()
