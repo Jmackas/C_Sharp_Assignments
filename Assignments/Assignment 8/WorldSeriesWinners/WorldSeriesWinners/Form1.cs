@@ -53,6 +53,7 @@ namespace WorldSeriesWinners
             
         }
 
+        // Method to control what happens on label select
         private void teamsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selected = teamsListBox.GetItemText(teamsListBox.SelectedValue);
