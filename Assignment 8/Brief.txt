@@ -1,0 +1,20 @@
+In the Chap07 folder of the Student Sample Programs, you will find the following files
+	Teams.txt This file contains a list of several Major League baseball teams in al- phabetical order. Each team listed in the file has won the World Series at least once.
+	
+	WorldSeriesWinners.txt—This file contains a chronological list of the World Series’ winning teams from 1903 through 2012. (The first line in the file is the name of the team that won in 1903, and the last line is the name of the team that won in 2012. Note that the World Series was not played in 1904 or 1994.)
+
+Create an application that displays the contents of the Teams.txt file in a ListBox control. When the user selects a team in the ListBox, the application should display the number of times that team has won the World Series in the time period from 1903 through 2012.
+
+For this question you will have to design a GUI. To achieve full marks, your solution must:
+
+	Meets the client requirements specified above;
+
+	Work correctly;
+
+	Contain appropriate comments;
+
+	Use appropriate indentation; and
+
+	Use appropriate methods
+
+	Follow conventions for naming application, variables, controls, constants and methods
