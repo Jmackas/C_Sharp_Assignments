@@ -45,7 +45,7 @@
             // 
             // outputValueLabel
             // 
-            this.outputValueLabel.Location = new System.Drawing.Point(44, 235);
+            this.outputValueLabel.Location = new System.Drawing.Point(79, 235);
             this.outputValueLabel.Name = "outputValueLabel";
             this.outputValueLabel.Size = new System.Drawing.Size(35, 13);
             this.outputValueLabel.TabIndex = 1;
@@ -55,9 +55,9 @@
             this.prependText.AutoSize = true;
             this.prependText.Location = new System.Drawing.Point(12, 235);
             this.prependText.Name = "prependText";
-            this.prependText.Size = new System.Drawing.Size(34, 13);
+            this.prependText.Size = new System.Drawing.Size(61, 13);
             this.prependText.TabIndex = 2;
-            this.prependText.Text = "Wins:";
+            this.prependText.Text = "Total Wins:";
             // 
             // worldSeriesWinnersForm
             // 

@@ -140,6 +140,69 @@ namespace WorldSeriesWinners
                 // Output to label
                 outputValueLabel.Text = wins.ToString();
             }
+
+            // Outputs how many wins Brooklyn Dodgers have incurred
+            else if (outputValueLabel.Text == "Brooklyn Dodgers")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Chicago Cubs have incurred
+            else if (outputValueLabel.Text == "Chicago Cubs")
+            {
+                // Declaration of wins
+                int wins = 2;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Chicago White Sox have incurred
+            else if (outputValueLabel.Text == "Chicago White Sox")
+            {
+                // Declaration of wins
+                int wins = 3;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Cincinnati Reds have incurred
+            else if (outputValueLabel.Text == "Cincinnati Reds")
+            {
+                // Declaration of wins
+                int wins = 5;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Cleveland Indians have incurred
+            else if (outputValueLabel.Text == "Cleveland Indians")
+            {
+                // Declaration of wins
+                int wins = 2;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Detroit Tigers have incurred
+            else if (outputValueLabel.Text == "Detroit Tigers")
+            {
+                // Declaration of wins
+                int wins = 4;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Florida Marlins have incurred
+            else if (outputValueLabel.Text == "Florida Marlins")
+            {
+                // Declaration of wins
+                int wins = 4;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
         }
     }
 }
