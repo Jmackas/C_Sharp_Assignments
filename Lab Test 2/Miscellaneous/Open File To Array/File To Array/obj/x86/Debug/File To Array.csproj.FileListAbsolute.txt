@@ -1,0 +1,18 @@
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\bin\Debug\File To Array.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\bin\Debug\File To Array.pdb
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File_To_Array.Form1.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File_To_Array.Properties.Resources.resources
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.exe
+C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.pdb
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\bin\Debug\File To Array.exe
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\bin\Debug\File To Array.pdb
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\obj\x86\Debug\File To Array.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\obj\x86\Debug\File_To_Array.Form1.resources
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\obj\x86\Debug\File_To_Array.Properties.Resources.resources
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\obj\x86\Debug\File To Array.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\obj\x86\Debug\File To Array.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\obj\x86\Debug\File To Array.exe
+C:\Users\James\Documents\Github\cs_uni\Lab Test 2\Miscellaneous\Open File To Array\File To Array\obj\x86\Debug\File To Array.pdb
