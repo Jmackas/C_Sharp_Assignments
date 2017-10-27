@@ -30,6 +30,7 @@
         {
             this.teamsListBox = new System.Windows.Forms.ListBox();
             this.outputValueLabel = new System.Windows.Forms.Label();
+            this.prependText = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // teamsListBox
@@ -44,18 +45,26 @@
             // 
             // outputValueLabel
             // 
-            this.outputValueLabel.AutoSize = true;
-            this.outputValueLabel.Location = new System.Drawing.Point(12, 235);
+            this.outputValueLabel.Location = new System.Drawing.Point(44, 235);
             this.outputValueLabel.Name = "outputValueLabel";
             this.outputValueLabel.Size = new System.Drawing.Size(35, 13);
             this.outputValueLabel.TabIndex = 1;
-            this.outputValueLabel.Text = "label1";
+            // 
+            // prependText
+            // 
+            this.prependText.AutoSize = true;
+            this.prependText.Location = new System.Drawing.Point(12, 235);
+            this.prependText.Name = "prependText";
+            this.prependText.Size = new System.Drawing.Size(34, 13);
+            this.prependText.TabIndex = 2;
+            this.prependText.Text = "Wins:";
             // 
             // worldSeriesWinnersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(351, 330);
+            this.Controls.Add(this.prependText);
             this.Controls.Add(this.outputValueLabel);
             this.Controls.Add(this.teamsListBox);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -71,6 +80,7 @@
 
         private System.Windows.Forms.ListBox teamsListBox;
         private System.Windows.Forms.Label outputValueLabel;
+        private System.Windows.Forms.Label prependText;
     }
 }
 

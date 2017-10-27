@@ -11,6 +11,8 @@ using System.IO;
 
 // Some of this code was taken from the resources folder on Blackboard 
 
+// I am also aware that this is probably the worst way to go about the program, but it does work to the user's request.
+
 namespace WorldSeriesWinners
 {
     public partial class worldSeriesWinnersForm : Form
@@ -86,10 +88,55 @@ namespace WorldSeriesWinners
             }
 
             // Outputs how many wins Arizona Diamondbacks have incurred
-            if (outputValueLabel.Text == "Arizona Diamondbacks")
+            else if (outputValueLabel.Text == "Arizona Diamondbacks")
             {
                 // Declaration of wins
-                int wins = 5;
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Atlanta Braves have incurred
+            else if (outputValueLabel.Text == "Atlanta Braves")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Baltimore Orioles have incurred
+            else if (outputValueLabel.Text == "Baltimore Orioles")
+            {
+                // Declaration of wins
+                int wins = 3;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Boston Americans have incurred
+            else if (outputValueLabel.Text == "Boston Americans")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Boston Braves have incurred
+            else if (outputValueLabel.Text == "Boston Braves")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Boston Red Sox have incurred
+            else if (outputValueLabel.Text == "Boston Red Sox")
+            {
+                // Declaration of wins
+                int wins = 6;
                 // Output to label
                 outputValueLabel.Text = wins.ToString();
             }
