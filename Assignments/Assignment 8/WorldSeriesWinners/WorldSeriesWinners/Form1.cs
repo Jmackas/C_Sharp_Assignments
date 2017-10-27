@@ -57,8 +57,11 @@ namespace WorldSeriesWinners
         // Method to control what happens on label select
         private void teamsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Invoke methods on item select
+            // Invoke method on item select
             ListboxToLabel();
+
+            // Invoke method to determine how many wins the team has incurred
+            howManyWinsToLabel();
         }
 
         // Outputs the listbox item selected to label
@@ -69,6 +72,27 @@ namespace WorldSeriesWinners
 
             // Selected item to output to label
             outputValueLabel.Text = selected.ToString();
+        }
+
+        private void howManyWinsToLabel()
+        {
+            // Outputs how many wins Anaheim Angels have incurred
+            if (outputValueLabel.Text == "Anaheim Angels")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Arizona Diamondbacks have incurred
+            if (outputValueLabel.Text == "Arizona Diamondbacks")
+            {
+                // Declaration of wins
+                int wins = 5;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
         }
     }
 }
