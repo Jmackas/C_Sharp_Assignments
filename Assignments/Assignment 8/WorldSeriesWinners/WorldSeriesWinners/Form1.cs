@@ -57,7 +57,10 @@ namespace WorldSeriesWinners
         // Method to control what happens on label select
         private void teamsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // Selected item and convert to string
             string selected = teamsListBox.Text;
+
+            // Selected item to output to label
             outputValueLabel.Text = selected.ToString();
         }
     }

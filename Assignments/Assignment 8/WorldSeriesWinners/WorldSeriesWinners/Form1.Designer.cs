@@ -45,7 +45,7 @@
             // outputValueLabel
             // 
             this.outputValueLabel.AutoSize = true;
-            this.outputValueLabel.Location = new System.Drawing.Point(89, 272);
+            this.outputValueLabel.Location = new System.Drawing.Point(12, 235);
             this.outputValueLabel.Name = "outputValueLabel";
             this.outputValueLabel.Size = new System.Drawing.Size(35, 13);
             this.outputValueLabel.TabIndex = 1;
