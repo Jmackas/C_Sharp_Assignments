@@ -62,6 +62,12 @@ namespace WorldSeriesWinners
 
             // Selected item to output to label
             outputValueLabel.Text = selected.ToString();
+
+            if (outputValueLabel.Text == "Boston Americans")
+            {
+                MessageBox.Show("Boston Americans");
+            }
+
         }
     }
 }
