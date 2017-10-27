@@ -31,6 +31,7 @@
             this.teamsListBox = new System.Windows.Forms.ListBox();
             this.outputValueLabel = new System.Windows.Forms.Label();
             this.prependText = new System.Windows.Forms.Label();
+            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // teamsListBox
@@ -59,11 +60,22 @@
             this.prependText.TabIndex = 2;
             this.prependText.Text = "Total Wins:";
             // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(265, 262);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.TabIndex = 3;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
             // worldSeriesWinnersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(351, 330);
+            this.ClientSize = new System.Drawing.Size(351, 297);
+            this.Controls.Add(this.exitButton);
             this.Controls.Add(this.prependText);
             this.Controls.Add(this.outputValueLabel);
             this.Controls.Add(this.teamsListBox);
@@ -81,6 +93,7 @@
         private System.Windows.Forms.ListBox teamsListBox;
         private System.Windows.Forms.Label outputValueLabel;
         private System.Windows.Forms.Label prependText;
+        private System.Windows.Forms.Button exitButton;
     }
 }
 

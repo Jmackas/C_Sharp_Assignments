@@ -199,10 +199,151 @@ namespace WorldSeriesWinners
             else if (outputValueLabel.Text == "Florida Marlins")
             {
                 // Declaration of wins
+                int wins = 2;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Kansas City Royals have incurred
+            else if (outputValueLabel.Text == "Kansas City Royals")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Los Angeles Dodgers have incurred
+            else if (outputValueLabel.Text == "Los Angeles Dodgers")
+            {
+                // Declaration of wins
+                int wins = 5;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Milwaukee Braves have incurred
+            else if (outputValueLabel.Text == "Milwaukee Braves")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Minnesota Twins have incurred
+            else if (outputValueLabel.Text == "Minnesota Twins")
+            {
+                // Declaration of wins
+                int wins = 2;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins New York Giants have incurred
+            else if (outputValueLabel.Text == "New York Giants")
+            {
+                // Declaration of wins
+                int wins = 7;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins New York Mets have incurred
+            else if (outputValueLabel.Text == "New York Mets")
+            {
+                // Declaration of wins
+                int wins = 2;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins New York Yankees have incurred
+            else if (outputValueLabel.Text == "New York Yankees")
+            {
+                // Declaration of wins
+                int wins = 27;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Oakland Athletics have incurred
+            else if (outputValueLabel.Text == "Oakland Athletics")
+            {
+                // Declaration of wins
                 int wins = 4;
                 // Output to label
                 outputValueLabel.Text = wins.ToString();
             }
+
+            // Outputs how many wins Philadelphia Athletics have incurred
+            else if (outputValueLabel.Text == "Philadelphia Athletics")
+            {
+                // Declaration of wins
+                int wins = 7;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Pittsburgh Pirates have incurred
+            else if (outputValueLabel.Text == "Pittsburgh Pirates")
+            {
+                // Declaration of wins
+                int wins = 5;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins San Francisco Giants have incurred
+            else if (outputValueLabel.Text == "San Francisco Giants")
+            {
+                // Declaration of wins
+                int wins = 2;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins San Francisco Giants have incurred
+            else if (outputValueLabel.Text == "St. Louis Cardinals")
+            {
+                // Declaration of wins
+                int wins = 11;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Toronto Blue Jays have incurred
+            else if (outputValueLabel.Text == "Toronto Blue Jays")
+            {
+                // Declaration of wins
+                int wins = 2;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Washington Senators have incurred
+            else if (outputValueLabel.Text == "Washington Senators")
+            {
+                // Declaration of wins
+                int wins = 1;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+
+            // Outputs how many wins Pittsburgh Pirates have incurred
+            else if (outputValueLabel.Text == "Philadelphia Phillies")
+            {
+                // Declaration of wins
+                int wins = 0;
+                // Output to label
+                outputValueLabel.Text = wins.ToString();
+            }
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the application on button select
+            this.Close();
         }
     }
 }
