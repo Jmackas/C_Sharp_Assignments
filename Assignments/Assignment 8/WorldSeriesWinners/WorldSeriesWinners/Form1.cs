@@ -57,17 +57,18 @@ namespace WorldSeriesWinners
         // Method to control what happens on label select
         private void teamsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // Invoke methods on item select
+            ListboxToLabel();
+        }
+
+        // Outputs the listbox item selected to label
+        private void ListboxToLabel()
+        {
             // Selected item and convert to string
             string selected = teamsListBox.Text;
 
             // Selected item to output to label
             outputValueLabel.Text = selected.ToString();
-
-            if (outputValueLabel.Text == "Boston Americans")
-            {
-                MessageBox.Show("Boston Americans");
-            }
-
         }
     }
 }
