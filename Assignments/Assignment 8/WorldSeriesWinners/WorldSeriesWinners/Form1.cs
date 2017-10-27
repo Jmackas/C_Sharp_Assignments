@@ -15,6 +15,7 @@ namespace WorldSeriesWinners
 {
     public partial class worldSeriesWinnersForm : Form
     {
+
         public worldSeriesWinnersForm()
         {
             InitializeComponent();
@@ -56,7 +57,7 @@ namespace WorldSeriesWinners
         // Method to control what happens on label select
         private void teamsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string selected = teamsListBox.GetItemText(teamsListBox.SelectedValue);
+            string selected = teamsListBox.Text;
             outputValueLabel.Text = selected.ToString();
         }
     }
