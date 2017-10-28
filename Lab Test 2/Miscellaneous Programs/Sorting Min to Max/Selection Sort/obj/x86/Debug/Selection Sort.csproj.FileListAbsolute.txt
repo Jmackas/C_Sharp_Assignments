@@ -14,3 +14,5 @@ C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting
 C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.csproj.CoreCompileInputs.cache
 C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.exe
 C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.pdb
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\bin\Debug\Selection Sort.exe
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\bin\Debug\Selection Sort.pdb
