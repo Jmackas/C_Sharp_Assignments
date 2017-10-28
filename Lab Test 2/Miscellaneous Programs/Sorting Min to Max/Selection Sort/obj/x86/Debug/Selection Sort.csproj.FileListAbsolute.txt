@@ -7,3 +7,10 @@ C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Progr
 C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Selection Sort\Selection Sort\obj\x86\Debug\Selection Sort.csproj.CoreCompileInputs.cache
 C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Selection Sort\Selection Sort\obj\x86\Debug\Selection Sort.exe
 C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Selection Sort\Selection Sort\obj\x86\Debug\Selection Sort.pdb
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.csprojResolveAssemblyReference.cache
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection_Sort.Form1.resources
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection_Sort.Properties.Resources.resources
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.csproj.GenerateResource.Cache
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.exe
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Sorting Min to Max\Selection Sort\obj\x86\Debug\Selection Sort.pdb
