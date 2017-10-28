@@ -21,7 +21,7 @@ namespace Selection_Sort
         // The SelectionSort method accepts an int array as an argument.
         // It uses the Selection Sort algorithm to sort the array.
         private void SelectionSort(int[] iArray)
-        {
+        { 
             int minIndex;   // Subscript of smallest value in scanned area
             int minValue;   // Smallest value in the scanned area
 
