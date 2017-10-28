@@ -1,0 +1,1 @@
+A class is effectively a group of related methods and variables. 

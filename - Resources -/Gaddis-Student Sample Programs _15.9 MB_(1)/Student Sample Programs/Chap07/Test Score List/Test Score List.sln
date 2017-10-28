@@ -1,7 +1,8 @@
-
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Score List", "Test Score List\Test Score List.csproj", "{14FA4E18-25D1-47F6-ACA8-0D43DFB89544}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1", "Test Score List\1.csproj", "{14FA4E18-25D1-47F6-ACA8-0D43DFB89544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6D2D31A-AA7F-4189-8AAF-BABEE802090F}
 	EndGlobalSection
 EndGlobal

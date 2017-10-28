@@ -2,16 +2,20 @@ class Coin
 {
     private string sideUp; // field
 
-    public Coin() // constructor
+    /* Constructor */
+    public Coin()
     {
         sideUp = “Heads”;
     }
 
-    public void Toss() // a void method
+    /* A void method */
+    public void Toss()
     {
         MessageBox.Show(sideUp);
     }
-    public string GetSideUp() // a value-returning method
+
+    /* A value returning method */
+    public string GetSideUp()
     {
         return sideUp;
     }
