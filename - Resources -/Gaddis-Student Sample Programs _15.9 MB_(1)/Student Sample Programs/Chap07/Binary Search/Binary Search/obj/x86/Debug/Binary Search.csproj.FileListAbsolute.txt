@@ -1,0 +1,8 @@
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\bin\Debug\Binary Search.exe
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\bin\Debug\Binary Search.pdb
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\obj\x86\Debug\Binary_Search.Form1.resources
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\obj\x86\Debug\Binary_Search.Properties.Resources.resources
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\obj\x86\Debug\Binary Search.csproj.GenerateResource.Cache
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\obj\x86\Debug\Binary Search.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\obj\x86\Debug\Binary Search.exe
+C:\Users\james\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\Binary Search\Binary Search\obj\x86\Debug\Binary Search.pdb
