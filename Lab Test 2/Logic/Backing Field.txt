@@ -1,0 +1,3 @@
+It is simply a variable declaration within a class. It is the first line that is invoked. It is meant to be private to avoid data corruption.
+
+private DateTime date;
