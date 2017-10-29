@@ -1,3 +1,0 @@
-Getter returns properties value because it has return statement. 
-
-Setter, if not empty, gets the value stored in the backing field and assigns the value to the property.

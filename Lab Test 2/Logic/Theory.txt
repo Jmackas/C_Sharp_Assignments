@@ -1,0 +1,10 @@
+Backing Field:
+	It is simply a variable declaration within a class. It is the first line that is invoked. It is meant to be private to avoid data corruption.
+
+	private DateTime date;
+
+	
+Getter and Setter
+	Getter returns properties value because it has return statement. 
+
+	Setter, if not empty, gets the value stored in the backing field and assigns the value to the property.
