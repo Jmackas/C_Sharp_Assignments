@@ -7,3 +7,12 @@ C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Progr
 C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.csproj.CoreCompileInputs.cache
 C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.exe
 C:\Users\James\Documents\Github\cs_uni\- Resources -\Gaddis-Student Sample Programs _15.9 MB_(1)\Student Sample Programs\Chap07\File To Array\File To Array\obj\x86\Debug\File To Array.pdb
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\obj\x86\Debug\File To Array.csprojResolveAssemblyReference.cache
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\obj\x86\Debug\File_To_Array.Form1.resources
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\obj\x86\Debug\File_To_Array.Properties.Resources.resources
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\obj\x86\Debug\File To Array.csproj.GenerateResource.Cache
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\obj\x86\Debug\File To Array.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\obj\x86\Debug\File To Array.exe
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\obj\x86\Debug\File To Array.pdb
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\bin\Debug\File To Array.exe
+C:\Users\james\Documents\Github\cs_uni\Lab Test 2\Miscellaneous Programs\Arrays and Lists\Open File To List to Listbox\File To Array\bin\Debug\File To Array.pdb

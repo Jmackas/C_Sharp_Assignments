@@ -34,7 +34,7 @@ namespace File_To_Array
                 inputFile = File.OpenText("Values.txt");
 
                 // Read the file's contents into the array.
-                while (index < numbers.Length && !inputFile.EndOfStream)
+                while (index < numbers.Count && !inputFile.EndOfStream)
                 {
                     numbers[index] = int.Parse(inputFile.ReadLine());
                     index++;
