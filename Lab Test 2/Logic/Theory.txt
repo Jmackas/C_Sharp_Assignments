@@ -1,10 +1,50 @@
+
+
+/**************/
+Argument:
+	Any value that is passed to a place in a program.
+	
+Parameter:
+	Used interchangeably with an argument, although insinuates that it can be changed once passed.
+
+	
+	
+
+/*************/
+Void method:
+	Executes a statement and then terminates without returning a value.
+
+	
+	
+	
+	
+/**************/
+Jagged Array:
+	An array that can have different lengths.
+	
+Two dimensional array:
+	An array within an array
+
+	
+	
+/**************/
 Backing Field:
 	It is simply a variable declaration within a class. It is the first line that is invoked. It is meant to be private to avoid data corruption.
 
 	private DateTime date;
 
 	
-Getter and Setter
+	
+	
+/**************/
+Getter and Setter:
 	Getter returns properties value because it has return statement. 
 
 	Setter, if not empty, gets the value stored in the backing field and assigns the value to the property.
+	
+
+	
+/*************/
+Object:
+	
+	
